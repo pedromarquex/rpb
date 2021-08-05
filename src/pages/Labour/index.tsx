@@ -1,10 +1,12 @@
 import React from 'react';
-import { Image, ScrollView } from 'react-native';
+import { Image, ScrollView, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import * as S from './styles';
 
-// @ts-ignore
+import * as S from '../_styles/info/styles';
+
 import backIcon from '../../assets/icons/back.png';
+import zito from '../../assets/PNGS-14.png';
+import pregnancy from '../../assets/PNGS-2.png';
 
 const Labour: React.FC = () => {
   const navigation = useNavigation();
@@ -14,11 +16,18 @@ const Labour: React.FC = () => {
         <S.BackButton onPress={() => navigation.navigate('Home')}>
           <Image source={backIcon} resizeMode="contain" />
         </S.BackButton>
-
-        <S.Title>O Trabalho de parto</S.Title>
+        <S.TitleContainer>
+          <S.Title>O Trabalho de parto</S.Title>
+          <S.TitleImage source={zito} />
+        </S.TitleContainer>
       </S.HeaderContainer>
       <S.ContentContainer>
         <S.Content>
+          <S.Image
+            resizeMode="contain"
+            source={pregnancy}
+            style={{ marginBottom: 30 }}
+          />
           <S.TextBlock>
             O trabalho de parto representa o período em que ocorrem as
             contrações uterinas de forma gradativa e que tendem a evoluir e

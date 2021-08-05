@@ -2,9 +2,10 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from './styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../assets/icons/back.png';
+import zito from '../../assets/PNGS-16.png';
 
 const Aromatherapy: React.FC = () => {
   const navigation = useNavigation();
@@ -15,7 +16,10 @@ const Aromatherapy: React.FC = () => {
           <Image source={backIcon} resizeMode="contain" />
         </S.BackButton>
 
-        <S.Title>Aromaterapia</S.Title>
+        <S.TitleContainer>
+          <S.Title>Aromaterapia</S.Title>
+          <S.TitleImage source={zito} resizeMode="center" />
+        </S.TitleContainer>
       </S.HeaderContainer>
       <S.ContentContainer>
         <S.Content>
@@ -103,14 +107,16 @@ const Aromatherapy: React.FC = () => {
             entanto, eles podem ser usados de outras formas, adequando-se ao
             problema a tratar ou ao estilo de vida de cada parturiente.
           </S.TextBlock>
-          <S.TextBlock>1. Higienização das mãos.</S.TextBlock>
           <S.TextBlock>
-            2. Oriente que a parturiente possa segurar o frasco de óleo
-            essencial próximo ao nariz ou pingue de 1 a 3 gotas nas palmas das
-            suas mãos e oriente que passe uma mão na outra e aproxime a 15 cm do
-            nariz em forma de concha. A inalação deverá iniciar leve e depois ir
-            aumentando o número de inalações e a intensidade como indicado
-            abaixo:
+            <S.TextBold>1. </S.TextBold>Higienização das mãos.
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>2. </S.TextBold>Oriente que a parturiente possa segurar
+            o frasco de óleo essencial próximo ao nariz ou pingue de 1 a 3 gotas
+            nas palmas das suas mãos e oriente que passe uma mão na outra e
+            aproxime a 15 cm do nariz em forma de concha. A inalação deverá
+            iniciar leve e depois ir aumentando o número de inalações e a
+            intensidade como indicado abaixo:
           </S.TextBlock>
           <S.TextBlock>
             {'\t\t\t\t'}
@@ -126,33 +132,38 @@ const Aromatherapy: React.FC = () => {
             fase de expulsão. (SMITH et al, 2011).
           </S.TextBlock>
           <S.TextBlock>
-            3. Outra forma de se utilizar aromaterapia é por meio do
-            Aromatizador. Neste caso, adicione 2 ou 3 gotas do óleo escolhido no
-            interior de um difusor de aromas com água em temperatura ambiente ou
-            fria, até criar uma nuvem de fumaça aromatizada. A indicação do uso
-            da água fria é que as moléculas dos óleos permanecem no ar intactas
-            durante horas, já a vaporização quente, sem o controle de
-            temperatura, pode alterar a composição química dos óleos essenciais.
+            <S.TextBold>3. </S.TextBold>Outra forma de se utilizar aromaterapia
+            é por meio do Aromatizador. Neste caso, adicione 2 ou 3 gotas do
+            óleo escolhido no interior de um difusor de aromas com água em
+            temperatura ambiente ou fria, até criar uma nuvem de fumaça
+            aromatizada. A indicação do uso da água fria é que as moléculas dos
+            óleos permanecem no ar intactas durante horas, já a vaporização
+            quente, sem o controle de temperatura, pode alterar a composição
+            química dos óleos essenciais.
           </S.TextBlock>
           <S.TextBlock>
-            4. Caso não tenha o difusor de aromas coloque 5 a 20 as gotas numa
-            xícara com água fervente com temperatura máxima de 50-60°C.
+            <S.TextBold>4. </S.TextBold>Caso não tenha o difusor de aromas
+            coloque 5 a 20 as gotas numa xícara com água fervente com
+            temperatura máxima de 50-60°C.
           </S.TextBlock>
           <S.TextBlock>
-            5. Com o auxílio de um termômetro verifique a temperatura da água.
+            <S.TextBold>5. </S.TextBold>Com o auxílio de um termômetro verifique
+            a temperatura da água.
           </S.TextBlock>
           <S.TextBlock>
-            6. Adicione de 5 a 20 gotas na água em uma xícara até quando a água
-            for evaporando e o aroma é liberado para o ar (SMITH et al., 2011).
+            <S.TextBold>6. </S.TextBold>Adicione de 5 a 20 gotas na água em uma
+            xícara até quando a água for evaporando e o aroma é liberado para o
+            ar (SMITH et al., 2011).
           </S.TextBlock>
           <S.TextBlock>
-            7. Para definir a percepção da dor durante o trabalho de parto,
-            utilize a escala visual analógica (EVA) que varia de 0 a 10, em que
-            o 0 é ausência de dor e 10 significa dor intensa.
+            <S.TextBold>7. </S.TextBold>Para definir a percepção da dor durante
+            o trabalho de parto, utilize a escala visual analógica (EVA) que
+            varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
+            intensa.
           </S.TextBlock>
           <S.TextBlock>
-            8. Realizar registro da intervenção e registro de acompanhamento dos
-            sintomas e intensidade da dor.
+            <S.TextBold>8. </S.TextBold>Realizar registro da intervenção e
+            registro de acompanhamento dos sintomas e intensidade da dor.
           </S.TextBlock>
           <S.TextBlock>
             A evaporização, outra forma de se utilizar a aromaterapia, consiste

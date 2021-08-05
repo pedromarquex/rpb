@@ -14,7 +14,9 @@ export const Welcome = styled.Text`
   color: #fff;
 `;
 
-export const TitleContainer = styled.View``;
+export const TitleContainer = styled.View`
+  flex-direction: row;
+`;
 
 export const Title = styled.Text`
   font-family: 'Poppins_600SemiBold';
@@ -42,4 +44,10 @@ export const OptionText = styled.Text`
   font-family: 'Archivo_600SemiBold';
   color: #fff;
   font-size: 20px;
+`;
+
+export const AvatarImage = styled.Image`
+  width: 70px;
+  height: 170px;
+  margin-left: 40px;
 `;

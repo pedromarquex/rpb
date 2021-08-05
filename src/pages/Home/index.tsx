@@ -4,6 +4,7 @@ import { Image, View } from 'react-native';
 import * as S from './styles';
 
 import chevron from '../../assets/icons/chevron-right.png';
+import zito from '../../assets/PNGS-16.png';
 
 const Home: React.FC = () => {
   const navigation = useNavigation();
@@ -11,8 +12,11 @@ const Home: React.FC = () => {
   return (
     <S.Container>
       <S.TitleContainer>
-        <S.Welcome>Seja bem-vindo.</S.Welcome>
-        <S.Title>Escolha uma opção e tire suas dúvidas</S.Title>
+        <View>
+          <S.Welcome>Seja bem-vindo.</S.Welcome>
+          <S.Title>Escolha uma opção e{'\n'}tire suas dúvidas</S.Title>
+        </View>
+        <S.AvatarImage source={zito} />
       </S.TitleContainer>
 
       <S.OptionsContainer>

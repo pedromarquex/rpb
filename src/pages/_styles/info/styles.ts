@@ -15,11 +15,22 @@ export const TextBold = styled.Text`
   color: #6a6180;
 `;
 
+export const TitleContainer = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
 export const Title = styled.Text`
   margin-top: 24px;
   font-family: 'Archivo_700Bold';
   font-size: 20px;
   color: #fff;
+`;
+
+export const TitleImage = styled.Image`
+  width: 70px;
+  height: 170px;
+  margin-right: 50px;
 `;
 
 export const BackButton = styled(BorderlessButton)``;

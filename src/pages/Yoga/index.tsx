@@ -2,10 +2,12 @@ import React from 'react';
 import { Image, ScrollView, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from './styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../assets/icons/back.png';
 import png11 from '../../assets/PNGS-11.png';
+import zito from '../../assets/PNGS-16.png';
+import yoga from '../../assets/PNGS-11.png';
 
 const Yoga: React.FC = () => {
   const navigation = useNavigation();
@@ -16,10 +18,18 @@ const Yoga: React.FC = () => {
           <Image source={backIcon} resizeMode="contain" />
         </S.BackButton>
 
-        <S.Title>Ioga</S.Title>
+        <S.TitleContainer>
+          <S.Title>Ioga</S.Title>
+          <S.TitleImage source={zito} resizeMode="center" />
+        </S.TitleContainer>
       </S.HeaderContainer>
       <S.ContentContainer>
         <S.Content>
+          <S.Image
+            resizeMode="contain"
+            source={yoga}
+            style={{ marginBottom: 30 }}
+          />
           <S.TextBlock>
             Não existe comprovação científica que o Ioga é efetivo em nenhuma
             das fases do trabalho de parto, porém se ela for realizada durante a
@@ -44,44 +54,48 @@ const Yoga: React.FC = () => {
             <S.TextBold>Procedimento: </S.TextBold>
           </S.TextBlock>
           <S.TextBlock>
-            1. Prepare a sala de parto com o objetivo de criar um bom ambiente,
-            mantendo as luzes baixas e a música suave. O uso de tapetes de
-            borracha ou tatames ante derrapantes pode ser uma alternativa.
+            <S.TextBold>1. </S.TextBold>Prepare a sala de parto com o objetivo
+            de criar um bom ambiente, mantendo as luzes baixas e a música suave.
+            O uso de tapetes de borracha ou tatames ante derrapantes pode ser
+            uma alternativa.
           </S.TextBlock>
           <S.TextBlock>
-            2. Realize o toque vaginal (enfermeiro ou médico obstetra) para
-            observar a dilatação cervical. A técnica só deverás ser realizada se
-            a dilatação cervical esteja até 5 cm.
+            <S.TextBold>2. </S.TextBold>Realize o toque vaginal (enfermeiro ou
+            médico obstetra) para observar a dilatação cervical. A técnica só
+            deverás ser realizada se a dilatação cervical esteja até 5 cm.
           </S.TextBlock>
           <S.TextBlock>
-            3. Posicione a gestante sentada no tapete, dobrando o joelho direito
-            e colocando calcanhar direito sobre a coxa esquerda. Em seguida,
-            incline cuidadosamente o joelho esquerdo, puxe o calcanhar esquerdo
-            sobre a canela direita e coloque-o sobre a coxa direita. Lembre-se
-            que a parturiente pode não optar por essa posição ou não se adaptar
-            e dever ser colocada na posição mais confortável possível.
+            <S.TextBold>3. </S.TextBold>Posicione a gestante sentada no tapete,
+            dobrando o joelho direito e colocando calcanhar direito sobre a coxa
+            esquerda. Em seguida, incline cuidadosamente o joelho esquerdo, puxe
+            o calcanhar esquerdo sobre a canela direita e coloque-o sobre a coxa
+            direita. Lembre-se que a parturiente pode não optar por essa posição
+            ou não se adaptar e dever ser colocada na posição mais confortável
+            possível.
           </S.TextBlock>
           <S.TextBlock>
-            4. Em um tom suave, embalado ao tom da música, com o objetivo de
-            melhorar a concentração e saber quantas contrações se teve por
-            minuto e qual a, oriente a ela para fechar os olhos.
+            <S.TextBold>4. </S.TextBold>Em um tom suave, embalado ao tom da
+            música, com o objetivo de melhorar a concentração e saber quantas
+            contrações se teve por minuto e qual a, oriente a ela para fechar os
+            olhos.
           </S.TextBlock>
           {/* TODO link para o contador de contrações */}
           {/* (https://pt.calcuworld.com/calculadorasdegravidez/contracoes/) */}
           <S.TextBlock>
-            5. Quando a paciente sentir uma contração, peça para que ela
-            sinalize e classifique em: leve, moderada ou forte, utilize o
-            temporizador de contração para melhorar o processo.
+            <S.TextBold>5. </S.TextBold>Quando a paciente sentir uma contração,
+            peça para que ela sinalize e classifique em: leve, moderada ou
+            forte, utilize o temporizador de contração para melhorar o processo.
           </S.TextBlock>
           <S.TextBlock>
-            6. Peça que a parturiente realize o exercício de Sama Vritti
-            Pranayama (Ioga-Respiração Equalizada).
+            <S.TextBold>6. </S.TextBold>Peça que a parturiente realize o
+            exercício de Sama Vritti Pranayama (Ioga-Respiração Equalizada).
           </S.TextBlock>
           <S.TextBlock>
-            7. Oriente que inspiração deve ser pelo nariz e expiração pela boca.
+            <S.TextBold>7. </S.TextBold>Oriente que inspiração deve ser pelo
+            nariz e expiração pela boca.
           </S.TextBlock>
           <S.TextBlock>
-            8. Iniciar a inspiração
+            <S.TextBold>8. </S.TextBold>Iniciar a inspiração
             <S.TextBold> Sama Vritti Pranayama</S.TextBold>, peça para que ela
             conte mentalmente e inspire o ar pelo nariz contando de 1 à 5 – (1 2
             3 4 5). Quando a mesma expirar, oriente a soltar o ar pela boca e

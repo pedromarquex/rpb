@@ -3,7 +3,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from './pages/Home';
-import Info from './pages/Info';
 import Labour from './pages/Labour';
 import Acupuncture from './pages/Acupuncture';
 import Aromatherapy from './pages/Aromatherapy';
@@ -26,7 +25,7 @@ const Routes = () => (
       }}
     >
       <AppStack.Screen name="Home" component={Home} />
-      <AppStack.Screen name="Info" component={Info} />
+
       <AppStack.Screen name="Labour" component={Labour} />
       <AppStack.Screen name="Acupuncture" component={Acupuncture} />
       <AppStack.Screen name="Aromatherapy" component={Aromatherapy} />
