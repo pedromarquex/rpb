@@ -2,15 +2,15 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import png19 from '../../assets/PNGS-19.png';
-import png20 from '../../assets/PNGS-20.png';
-import png21 from '../../assets/PNGS-21.png';
-import png22 from '../../assets/PNGS-22.png';
-import png23 from '../../assets/PNGS-23.png';
-import zito from '../../assets/PNGS-14.png';
+import backIcon from '../../../assets/icons/back.png';
+import png19 from '../../../assets/PNGS-19.png';
+import png20 from '../../../assets/PNGS-20.png';
+import png21 from '../../../assets/PNGS-21.png';
+import png22 from '../../../assets/PNGS-22.png';
+import png23 from '../../../assets/PNGS-23.png';
+import zito from '../../../assets/PNGS-14.png';
 
 const Massage: React.FC = () => {
   const navigation = useNavigation();

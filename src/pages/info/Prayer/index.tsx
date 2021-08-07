@@ -1,11 +1,11 @@
 import React from 'react';
-import { Image, ScrollView, Text } from 'react-native';
+import { Image, ScrollView, Text, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import zito from '../../assets/PNGS-14.png';
+import backIcon from '../../../assets/icons/back.png';
+import zito from '../../../assets/PNGS-14.png';
 
 const Prayer: React.FC = () => {
   const navigation = useNavigation();
@@ -55,9 +55,14 @@ const Prayer: React.FC = () => {
             filho, Jesus, traçou para todos os homens, o caminho do bem. Virgem,
             Mãe do Menino Jesus, agora me sinto mais calma e mais tranquila
             porque já sinto a vossa maternal proteção. Nossa Senhora do Bom
-            Parto, rogai por todas as gestantes. Amém.
-            {/* TODO tornar esse link navegável */}
-            (https://www.youtube.com/watch?v=xHdJ7N4etoI)
+            Parto, rogai por todas as gestantes. Amém.{' '}
+            <S.Link
+              onPress={() =>
+                Linking.openURL('https://www.youtube.com/watch?v=xHdJ7N4etoI')
+              }
+            >
+              (https://www.youtube.com/watch?v=xHdJ7N4etoI)
+            </S.Link>
           </S.TextBlock>
           <S.TextBlock>
             Tendo em vista a grande diversidade religiosa no Brasil, sugerimos
@@ -80,8 +85,16 @@ const Prayer: React.FC = () => {
             sentir sempre abraçada e protegida de todas as aflições, pois sei
             que sempre estás ao meu lado. Peço que me dê serenidade e que
             proteja o meu futuro ao lado da criança que está para chegar ao
-            mundo. (https://www.gestacaobebe.com.br/oracao-da-gestante/ )
-            {/* TODO tornar esse link navegável */}
+            mundo.{' '}
+            <S.Link
+              onPress={() =>
+                Linking.openURL(
+                  'https://www.gestacaobebe.com.br/oracao-da-gestante/'
+                )
+              }
+            >
+              (https://www.gestacaobebe.com.br/oracao-da-gestante/)
+            </S.Link>
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Espírita</S.TextBold>
@@ -102,10 +115,17 @@ const Prayer: React.FC = () => {
             jamais a abandoneis. Afastai os maus Espíritos que tentarem
             induzi-la ao mal e amenizai toda dor do momento do parto . Dai-lhe a
             força de resistir às suas sugestões, e a coragem de sofrer com
-            paciência e resignação as provas que a esperam na Terra.
-            (https://evangelhoespirita.wordpress.com/coletanea-de-preces
-            espiritas/3-preces-pelos-outros/vi-prece-para-um-nascimento/ )
-            {/* TODO tornar esse link navegável */}
+            paciência e resignação as provas que a esperam na Terra.{' '}
+            <S.Link
+              onPress={() =>
+                Linking.openURL(
+                  'https://evangelhoespirita.wordpress.com/coletanea-de-preces%20espiritas/3-preces-pelos-outros/vi-prece-para-um-nascimento/'
+                )
+              }
+            >
+              (https://evangelhoespirita.wordpress.com/coletanea-de-preces
+              espiritas/3-preces-pelos-outros/vi-prece-para-um-nascimento/)
+            </S.Link>
           </S.TextBlock>
           <S.TextBlock>
             Caso a parturiente não queria rezar nenhuma das citadas, pedir que a

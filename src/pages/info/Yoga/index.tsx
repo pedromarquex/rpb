@@ -2,12 +2,12 @@ import React from 'react';
 import { Image, ScrollView, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import png11 from '../../assets/PNGS-11.png';
-import zito from '../../assets/PNGS-16.png';
-import yoga from '../../assets/PNGS-11.png';
+import backIcon from '../../../assets/icons/back.png';
+import png11 from '../../../assets/PNGS-11.png';
+import zito from '../../../assets/PNGS-16.png';
+import yoga from '../../../assets/PNGS-11.png';
 
 const Yoga: React.FC = () => {
   const navigation = useNavigation();
@@ -79,12 +79,20 @@ const Yoga: React.FC = () => {
             contrações se teve por minuto e qual a, oriente a ela para fechar os
             olhos.
           </S.TextBlock>
-          {/* TODO link para o contador de contrações */}
-          {/* (https://pt.calcuworld.com/calculadorasdegravidez/contracoes/) */}
           <S.TextBlock>
             <S.TextBold>5. </S.TextBold>Quando a paciente sentir uma contração,
             peça para que ela sinalize e classifique em: leve, moderada ou
-            forte, utilize o temporizador de contração para melhorar o processo.
+            forte, utilize o{' '}
+            <S.Link
+              onPress={() =>
+                Linking.openURL(
+                  'https://pt.calcuworld.com/calculadorasdegravidez/contracoes/'
+                )
+              }
+            >
+              temporizador de contração{' '}
+            </S.Link>
+            para melhorar o processo.
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>6. </S.TextBold>Peça que a parturiente realize o

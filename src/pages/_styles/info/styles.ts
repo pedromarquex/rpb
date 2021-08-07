@@ -73,3 +73,11 @@ export const Legend = styled.Text`
   color: #6a6180;
   margin-bottom: 30px;
 `;
+
+export const Link = styled.Text`
+  line-height: 28px;
+  font-family: 'Poppins_400Regular';
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline;
+`;

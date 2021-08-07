@@ -2,14 +2,14 @@ import React from 'react';
 import { Image, ScrollView, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import png1 from '../../assets/suiss1.png';
-import png2 from '../../assets/suiss2.png';
-import png3 from '../../assets/suiss3.png';
-import png4 from '../../assets/suiss4.png';
-import zito from '../../assets/PNGS-15.png';
+import backIcon from '../../../assets/icons/back.png';
+import png1 from '../../../assets/suiss1.png';
+import png2 from '../../../assets/suiss2.png';
+import png3 from '../../../assets/suiss3.png';
+import png4 from '../../../assets/suiss4.png';
+import zito from '../../../assets/PNGS-15.png';
 
 const SwissBall: React.FC = () => {
   const navigation = useNavigation();

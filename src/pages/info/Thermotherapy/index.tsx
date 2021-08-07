@@ -2,12 +2,12 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import png7 from '../../assets/PNGS-7.png';
-import png9 from '../../assets/PNGS-9.png';
-import zito from '../../assets/PNGS-15.png';
+import backIcon from '../../../assets/icons/back.png';
+import png7 from '../../../assets/PNGS-7.png';
+import png9 from '../../../assets/PNGS-9.png';
+import zito from '../../../assets/PNGS-15.png';
 
 const Thermotherapy: React.FC = () => {
   const navigation = useNavigation();

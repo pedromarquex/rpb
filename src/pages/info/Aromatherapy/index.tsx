@@ -2,10 +2,10 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../_styles/info/styles';
+import * as S from '../../_styles/info/styles';
 
-import backIcon from '../../assets/icons/back.png';
-import zito from '../../assets/PNGS-16.png';
+import backIcon from '../../../assets/icons/back.png';
+import zito from '../../../assets/PNGS-16.png';
 
 const Aromatherapy: React.FC = () => {
   const navigation = useNavigation();
