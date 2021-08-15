@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, ScrollView, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../../_styles/info/styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
 import png1 from '../../../assets/suiss1.png';
@@ -28,7 +28,7 @@ const SwissBall: React.FC = () => {
       <S.ContentContainer>
         <S.Content>
           <S.TextBlock>
-            O uso da bola suíça conhecida como bola obstétrica pode ser usada
+            A bola suíça, conhecida como bola obstétrica, pode ser usada
             diversas vezes ao longo do trabalho de parto, a depender da vontade
             da parturiente. A utilização da bola consiste na possibilidade de a
             parturiente poder relaxar ao realizar movimentos de sua preferência

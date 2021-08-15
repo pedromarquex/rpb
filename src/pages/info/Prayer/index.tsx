@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, ScrollView, Text, Linking } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../../_styles/info/styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
 import zito from '../../../assets/PNGS-14.png';

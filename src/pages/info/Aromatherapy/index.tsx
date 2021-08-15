@@ -2,10 +2,11 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../../_styles/info/styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
 import zito from '../../../assets/PNGS-16.png';
+import aromatherapy from '../../../assets/PNGS-10.png';
 
 const Aromatherapy: React.FC = () => {
   const navigation = useNavigation();
@@ -23,6 +24,11 @@ const Aromatherapy: React.FC = () => {
       </S.HeaderContainer>
       <S.ContentContainer>
         <S.Content>
+          <S.Image
+            resizeMode="contain"
+            source={aromatherapy}
+            style={{ marginBottom: 30 }}
+          />
           <S.TextBlock>
             Consiste no emprego de óleos essenciais, aromas e fragrâncias que
             estimulam sensações de bem-estar e alívio de dores. A terapia se
@@ -119,14 +125,11 @@ const Aromatherapy: React.FC = () => {
             intensidade como indicado abaixo:
           </S.TextBlock>
           <S.TextBlock>
-            {'\t\t\t\t'}
             {'\u2713'} Inalações <S.TextBold>curtas</S.TextBold>: 3 a 7
             respirações seguidas, várias vezes durante o pré parto;{'\n'}
-            {'\t\t\t\t'}
             {'\u2713'} Inalações <S.TextBold>médias</S.TextBold>: 10 a 15
             respirações seguidas, várias vezes durante a fase de dilatação;
             {'\n'}
-            {'\t\t\t\t'}
             {'\u2713'} Inalações <S.TextBold>longas</S.TextBold>: 10 a 15
             minutos de respirações seguidas, 2 a 3 vezes na fase de transição à
             fase de expulsão. (SMITH et al, 2011).

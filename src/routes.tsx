@@ -3,15 +3,15 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import Home from './pages/Home';
-import Labour from './pages/info/Labour';
-import Acupuncture from './pages/info/Acupuncture';
-import Aromatherapy from './pages/info/Aromatherapy';
-import Massage from './pages/info/Massage';
-import Thermotherapy from './pages/info/Thermotherapy';
-import Yoga from './pages/info/Yoga';
-import Prayer from './pages/info/Prayer';
-import SwissBall from './pages/info/SwissBall';
-import MusicTherapy from './pages/info/MusicTherapy';
+import Labour from './pages/Info/Labour';
+import Acupuncture from './pages/Info/Acupuncture';
+import Aromatherapy from './pages/Info/Aromatherapy';
+import Massage from './pages/Info/Massage';
+import Thermotherapy from './pages/Info/Thermotherapy';
+import Yoga from './pages/Info/Yoga';
+import Prayer from './pages/Info/Prayer';
+import SwissBall from './pages/Info/SwissBall';
+import MusicTherapy from './pages/Info/MusicTherapy';
 
 const AppStack = createStackNavigator();
 

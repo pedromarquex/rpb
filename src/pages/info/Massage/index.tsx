@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, ScrollView, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import * as S from '../../_styles/info/styles';
+import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
 import png19 from '../../../assets/PNGS-19.png';
@@ -141,14 +141,7 @@ const Massage: React.FC = () => {
             <S.TextBold>13. </S.TextBold>Com as duas mãos colocadas no sentido
             ascendente em ambos os lados da coluna vertebral na região do sacro
             aplique uma pressão. Esta massagem nunca deve ser feita diretamente
-            sobre a coluna vertebral. 14. Com as mãos você deve massagear da
-            região glútea no sentido ascendente até ao nível da cintura. Em
-            seguida, os dedos de ambas as mãos viram para dentro e os cotovelos
-            viram para o exterior. 15. Para definir a percepção da dor durante o
-            trabalho de parto, utilize a escala visual analógica (EVA) que varia
-            de 0 a 10, em que o 0 é ausência de dor e 10 significa dor intensa.
-            16. Realizar registro da intervenção e registro de acompanhamento
-            dos sintomas e intensidade da dor.
+            sobre a coluna vertebral.
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>14. </S.TextBold>Com as mãos você deve massagear da
