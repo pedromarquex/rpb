@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, ScrollView, View } from 'react-native';
+import { Image, ScrollView } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import * as S from '../_styles/info/styles';
