@@ -10,6 +10,7 @@ import png4 from '../../../assets/PNGS-4.png';
 import png5 from '../../../assets/PNGS-5.png';
 import zito from '../../../assets/PNGS-15.png';
 import acunpucture from '../../../assets/PNGS-6.png';
+import eva from '../../../assets/eva-scale.png';
 
 const Acupuncture: React.FC = () => {
   const navigation = useNavigation();
@@ -38,18 +39,27 @@ const Acupuncture: React.FC = () => {
             em determinadas áreas do corpo, conhecidas como pontos de energia,
             por meio da aplicação de agulhas (acupuntura), mais ultilizadas
             durante a gestação, ou de pressão na pele da região (acupressão),
-            mais ultilizadas no período pré parto. A realização da
-            acupuntura/acupressão gera a diminuição da dor por meio da
-            estabilidade da energia corporal e também pela liberação de
-            endorfinas no Sistema Nervoso Central. Além disso, essa prática
-            quando realizada em pontos estratégicos pode influenciar na descida
-            do bebê para a região pélvica (ALLAMEH; TEHRANI; GHASEMI, 2015;
-            BRASIL, 2001; HAMID; OBAYA; GAAFAR, 2013; MAFETONI; SHIMO, 2016). Há
-            indícios de que a acupressão pode ser mais eficaz no período de
+            mais ultilizadas no período pré parto (MAFETONI; SHIMO, 2016).
+          </S.TextBlock>
+          <S.TextBlock>
+            A realização da acupuntura/acupressão gera a diminuição da dor por
+            meio da estabilidade da energia corporal e também pela liberação de
+            endorfinas no Sistema Nervoso Central (MAFETONI; SHIMO, 2016).
+          </S.TextBlock>
+          <S.TextBlock>
+            Além disso, essa prática quando realizada em pontos estratégicos
+            pode influenciar na descida do bebê para a região pélvica (ALLAMEH;
+            TEHRANI; GHASEMI, 2015; BRASIL, 2001; HAMID; OBAYA; GAAFAR, 2013;
+            MAFETONI; SHIMO, 2016).
+          </S.TextBlock>
+          <S.TextBlock>
+            Há indícios de que a acupressão pode ser mais eficaz no período de
             dilatação de até 8cm e mediante apresentação feto-cefálica alta
-            (MAFETONI; SHIMO, 2016). É importante ressaltar que essa técnica
-            necessita de um profissional habilitado para realizá-lo (BRASIL,
-            2017).
+            (MAFETONI; SHIMO, 2016).
+          </S.TextBlock>
+          <S.TextBlock>
+            É importante ressaltar que essa técnica necessita de um profissional
+            habilitado para realizá-lo (BRASIL, 2017).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento</S.TextBold>: A técnica de acupressão e
@@ -90,6 +100,7 @@ const Acupuncture: React.FC = () => {
             a escala visual analógica (EVA) que varia de 0 a 10, em que o 0 é
             ausência de dor e 10 significa dor intensa.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
             <S.TextBold>7. </S.TextBold>
             Realizar registro da intervenção e registro de acompanhamento dos
@@ -112,17 +123,33 @@ const Acupuncture: React.FC = () => {
           </S.Legend>
 
           <S.TextBlock>
+            <S.TextBold>- AURICULOTERAPIA</S.TextBold>
+          </S.TextBlock>
+          <S.TextBlock>
             Na técnica de auriculoterapia, o estímulo acontece por meio da
             fixação de microesferas de cristais em determinados pontos da
-            orelha, de acordo com o mapa auricular chinês: I) shenmen, que
-            predispõe o tronco cerebral e o córtex a receber, condicionar e
-            codificar os reflexos auriculares; II) útero, que é indicado nas
-            alterações ginecológicas e obstétricas, na indução do parto, redução
-            do período expulsivo e redução da dor no pós-parto; III ) área de
-            neurastenia, indicado para o tratamento da ansiedade; IV) endócrino,
-            que regula as funções das glândulas de secreção endógenas sendo
-            usado em distúrbios ginecológicos, entre outros. Esses pontos foram
-            baseados na prática clínica e em estudos prévios ilustrados na
+            orelha, de acordo com o mapa auricular chinês:
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>I) </S.TextBold>
+            shenmen, que predispõe o tronco cerebral e o córtex a receber,
+            condicionar e codificar os reflexos auriculares;
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>II) </S.TextBold>
+            útero, que é indicado nas alterações ginecológicas e obstétricas, na
+            indução do parto, redução do período expulsivo e redução da dor no
+            pós-parto;
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>III) </S.TextBold>
+            área de neurastenia, indicado para o tratamento da ansiedade;
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>IV) </S.TextBold>
+            endócrino, que regula as funções das glândulas de secreção endógenas
+            sendo usado em distúrbios ginecológicos, entre outros. Esses pontos
+            foram baseados na prática clínica e em estudos prévios ilustrados na
             figura abaixo (MAFETONI et al., 2019).
           </S.TextBlock>
           <S.TextBlock>
@@ -158,17 +185,26 @@ const Acupuncture: React.FC = () => {
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>7. </S.TextBold>Tenha como referência os pontos:
+          </S.TextBlock>
+          <S.TextBlock>
             <S.TextBold> I) Shen Men</S.TextBold>, que predispõe o tronco
             cerebral e o córtex a receber, condicionar e codificar os reflexos
             auriculares, tendo efeitos sedativos, analgésicos;
+          </S.TextBlock>
+          <S.TextBlock>
             <S.TextBold> II) Útero</S.TextBold>, que é indicado nas alterações
             ginecológicas e obstétricas, na indução do parto ou redução do
             período expulsivo e na redução da dor no pós-parto;
-            <S.TextBold> III )</S.TextBold> área de
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold> III) </S.TextBold>área de
             <S.TextBold> Neurastenia</S.TextBold>, indicado para o tratamento da
-            ansiedade; <S.TextBold> IV) Endócrino</S.TextBold>, que regula as
-            funções das glândulas de secreção endógenas, sendo usado em
-            distúrbios ginecológicos, entre outros.
+            ansiedade;
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold> IV) Endócrino</S.TextBold>, que regula as funções das
+            glândulas de secreção endógenas, sendo usado em distúrbios
+            ginecológicos, entre outros.
           </S.TextBlock>
           <S.Image resizeMode="contain" source={png3} />
           <S.Legend>
@@ -192,6 +228,7 @@ const Acupuncture: React.FC = () => {
             varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
             intensa.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
             <S.TextBold>11. </S.TextBold>Realizar registro da intervenção e
             registro de acompanhamento dos sintomas e intensidade da dor.
