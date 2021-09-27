@@ -34,15 +34,21 @@ const Yoga: React.FC = () => {
             Não existe comprovação científica que o Ioga é efetivo em nenhuma
             das fases do trabalho de parto, porém se ela for realizada durante a
             gestação poderá ser eficaz no controle da ansiedade, respiração e
-            relaxamento. Durante a gestação, os pranayamas (controle da energia
-            vital por meio da respiração) cumprem um papel importante para o
-            controle da pressão arterial, além de relaxar, distender e deixar
-            mais flexível a musculatura da parede abdominal e a região torácica
-            para que se tenha um melhor controle da dor durante a fase ativa do
-            parto (DESMAWATI et al., 2020). Técnicas respiratórias também
-            propiciam relaxamento e concentração, pois diminuem a fadiga causada
-            pelas contrações uterinas e podem gerar uma sensação de
-            tranquilidade, reduzindo o foco na dor da contração.
+            relaxamento (DESMAWATI et al., 2020).
+          </S.TextBlock>
+          <S.TextBlock>
+            Durante a gestação, os <S.TextBold>pranayamas</S.TextBold> (controle
+            da energia vital por meio da respiração) cumprem um papel importante
+            para o controle da pressão arterial, além de relaxar, distender e
+            deixar mais flexível a musculatura da parede abdominal e a região
+            torácica para que se tenha um melhor controle da dor durante a fase
+            ativa do parto (DESMAWATI et al., 2020).
+          </S.TextBlock>
+          <S.TextBlock>
+            Técnicas respiratórias também propiciam relaxamento e concentração,
+            pois diminuem a fadiga causada pelas contrações uterinas e podem
+            gerar uma sensação de tranquilidade, reduzindo o foco na dor da
+            contração (DESMAWATI et al., 2020).
           </S.TextBlock>
           <S.TextBlock>
             O método descrito a seguir deve ser empregado principalmente no
