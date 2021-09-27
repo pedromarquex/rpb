@@ -33,15 +33,21 @@ const Aromatherapy: React.FC = () => {
             Consiste no emprego de óleos essenciais, aromas e fragrâncias que
             estimulam sensações de bem-estar e alívio de dores. A terapia se
             baseia no uso de essências que advém das plantas e de fórmulas
-            naturais. O efeito analgésico será gerado à medida que o cheiro do
-            aroma ativar as células nervosas olfatórias por meio da liberação de
+            naturais (BRASIL, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            O efeito analgésico será gerado à medida que o cheiro do aroma
+            ativar as células nervosas olfatórias por meio da liberação de
             neurotransmissores (BRASIL, 2019).
           </S.TextBlock>
           <S.TextBlock>
             Os métodos de aplicação mais comum na prática da aromaterapia são
             pulverização e difusão aérea, inalação, compressas, banhos e
-            massagens. O modo mais adequado a ser empregado é definido de acordo
-            com a prescrição do profissional especialista, levando em conta a
+            massagens (CORAZZA, 2018; PRICE, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            O modo mais adequado a ser empregado é definido de acordo com a
+            prescrição do profissional especialista, levando em conta a
             substância a ser utilizada. Há também a possibilidade de tratamento
             através de bochechos e gargarejos e ingestão (via oral) (CORAZZA,
             2018; PRICE, 2019).
@@ -54,21 +60,35 @@ const Aromatherapy: React.FC = () => {
             SMITH et al., 2011; KAVIANI et al., 2014).
           </S.TextBlock>
           <S.TextBlock>
-            Os óleos essenciais mais utilizados em aromaterapia para o alívio da
-            dor durante o trabalho de parto são Sálvia esclaréia (Salvia
-            sclarea) e Camomila Romana (Anthemis nobilis) enquanto os de Lavanda
-            (L. angustifolia), Rosa (R. damascena) e Olíbano (Boswellia sp.) são
-            mais efetivos para o alívio do medo e ansiedade. O óleo de
-            Hortelã-pimenta (M. piperita) mostrou-se eficaz para o alívio da
-            náusea e vômitos, muitas vezes causado por efeitos colaterais de
-            outros medicamentos. Além disso, óleos essenciais de Eucalipto
-            (Eucalyptus globulus), Limão (Citrus limon) e Mandarina (Citrus
-            retiulata) pode aumentar a sensação de bem-estar e os sentimentos
-            positivos em relação ao processo do parto.
+            O óleo vegetal pode ser usado com gotas de lavanda e ser aplicado no
+            corpo por meio de massagem em adultos com 3 a 5 gotas (BRASIL, 2019;
+            POLLARD, 2008; SMITH et al., 2011; KAVIANI et al., 2014).
           </S.TextBlock>
           <S.TextBlock>
-            Os óleos de Jasmim (Jasminum) e Lavanda (lavandula Augustifólia)
-            oferecem vantagens ligeiramente diferentes, embora algumas de suas
+            Os óleos essenciais mais utilizados em aromaterapia para o alívio da
+            dor durante o trabalho de parto são
+            <S.TextBold> Sálvia esclaréia</S.TextBold> (Salvia sclarea) e
+            <S.TextBold> Camomila Romana </S.TextBold>
+            (Anthemis nobilis) enquanto os de <S.TextBold>Lavanda </S.TextBold>
+            (L. angustifolia), Rosa (R. damascena) e Olíbano (Boswellia sp.) são
+            mais efetivos para o alívio do medo e ansiedade (PRICE, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            O óleo de <S.TextBold>Hortelã-pimenta</S.TextBold> (M. piperita)
+            mostrou-se eficaz para o alívio da náusea e vômitos, muitas vezes
+            causado por efeitos colaterais de outros medicamentos (PRICE, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            Além disso, óleos essenciais de <S.TextBold>Eucalipto </S.TextBold>
+            (Eucalyptus globulus), <S.TextBold>Limão </S.TextBold>(Citrus limon)
+            e <S.TextBold>Mandarina </S.TextBold> (Citrus retiulata) podem
+            aumentar a sensação de bem-estar e os sentimentos positivos em
+            relação ao processo do parto (PRICE, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            Os óleos de <S.TextBold>Jasmim </S.TextBold> (Jasminum) e
+            <S.TextBold> Lavanda</S.TextBold> (lavandula Augustifólia) oferecem
+            vantagens ligeiramente diferentes, embora algumas de suas
             propriedades coincidam. Apesar de serem ambos analgésicos, o de
             Jasmim é um pouco mais eficaz para intensificar as contrações,
             abreviando, assim, o trabalho de parto (PRICE, 2019).
@@ -83,23 +103,27 @@ const Aromatherapy: React.FC = () => {
             Canela-Cássia, Cravo, Capim-Limão, Gerânio, Orégano) sempre devem
             ser diluídos em uma boa base, como um óleo de amêndoas de qualidade
             (puro e sem perfume) ou o óleo de rosa mosqueta antes da aplicação
-            tópica devido às suas fortes propriedades químicas (SMITH, 2011). A
-            solução é preparada em um frasco de vidro escuro diluindo 30 gotas
+            tópica devido às suas fortes propriedades químicas (SMITH, 2011).
+          </S.TextBlock>
+          <S.TextBlock>
+            A solução é preparada em um frasco de vidro escuro diluindo 30 gotas
             de óleo essencial em 10 ml de óleo vegetal. Especialistas recomendam
             que seja utilizada um frasco de vidro escuro do tipo “conta gotas”,
             pois pode ser compartilhado evitando o desperdício de material, além
             de ser mais higiênico prevenindo até mesmo infecções cruzadas. O
-            frasco do tipo Roll On é de uso somente individual.
+            frasco do tipo Roll On é de uso somente individual (SMITH, 2011).
           </S.TextBlock>
           <S.TextBlock>
             Deve-se usar pelos óleos essenciais 100% puros extraídos das plantas
             (cuidado com essências sintéticas que são meros perfumes e não
-            possuem nenhum efeito terapêutico). Bons fornecedores de óleos
-            essenciais geralmente apresentam na embalagem o nome botânico da
-            planta da qual foi extraído o óleo. Eles devem ser armazenados em
-            vidros escuros e bem vedados e que possuem um aroma bastante
-            “concentrado”, lembrando muito o cheiro da própria planta (SMITH et
-            al., 2011).
+            possuem nenhum efeito terapêutico) (SMITH, 2011).
+          </S.TextBlock>
+          <S.TextBlock>
+            Bons fornecedores de óleos essenciais geralmente apresentam na
+            embalagem o nome botânico da planta da qual foi extraído o óleo.
+            Eles devem ser armazenados em vidros escuros e bem vedados e que
+            possuem um aroma bastante “concentrado”, lembrando muito o cheiro da
+            própria planta (SMITH et al., 2011).
           </S.TextBlock>
           <S.TextBlock>
             Incensos de sálvia podem encurtar a duração do primeiro e segundo
