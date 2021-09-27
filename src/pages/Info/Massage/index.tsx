@@ -11,6 +11,7 @@ import png21 from '../../../assets/PNGS-21.png';
 import png22 from '../../../assets/PNGS-22.png';
 import png23 from '../../../assets/PNGS-23.png';
 import zito from '../../../assets/PNGS-14.png';
+import eva from '../../../assets/eva-scale.png';
 
 const Massage: React.FC = () => {
   const navigation = useNavigation();
@@ -33,35 +34,42 @@ const Massage: React.FC = () => {
             áreas do corpo para induzir o relaxamento e diminuir o estresse, uma
             vez que este contribui para a desarmonia do corpo, desequilíbrio dos
             hormônios e das sensações, além de alterações que produzem
-            contrações excessivamente dolorosas (BRASIL, 2018). A massagem
-            associada à acupressão tende a ser ainda mais eficaz para o alívio
-            da dor materna (GÖNENÇ; TERZIOĞLU, 2020).
+            contrações excessivamente dolorosas (BRASIL, 2018).
           </S.TextBlock>
           <S.TextBlock>
-            Trata-se de uma terapêutica que pode ser aplicada em diferentes
-            áreas do corpo para induzir o relaxamento e diminuir o estresse, uma
-            vez que este contribui para a desarmonia do corpo, desequilíbrio dos
-            hormônios e das sensações, além de alterações que produzem
-            contrações excessivamente dolorosas (BRASIL, 2018). A massagem
-            associada à acupressão tende a ser ainda mais eficaz para o alívio
-            da dor materna (GÖNENÇ; TERZIOĞLU, 2020).
+            A massagem associada à acupressão tende a ser ainda mais eficaz para
+            o alívio da dor materna (GÖNENÇ; TERZIOĞLU, 2020).
+          </S.TextBlock>
+          <S.TextBlock>
+            Quando aplicada durante a fase latente do parto, pode gerar redução
+            da dor e, por isso, costuma ser aplicada no início do momento de
+            latência (ÇEVIK; KARADUMAN, 2018; GAYESKI; BRÜGGEMANN, 2010; GALLO
+            et al., 2013; GÖNENÇ; TERZIOĞLU, 2020; MINISTÉRIO DA SAÚDE, 2018;
+            SMITH et al., 2018).
           </S.TextBlock>
           <S.TextBlock>
             No segundo estágio do trabalho de parto, a paciente pode não desejar
             ser tocada nas costas; neste caso, movimentos tranquilos na testa
-            podem ser mais apropriados (BRASIL, 2018; BRASIL, 2019). A massagem
-            deve ser aplicada sempre que necessária, até mesmo no abdome. Caso a
-            gestante opte por técnicas de massagem que ela esteja habituada ou
-            que tenham sido ensinadas aos seus acompanhantes, ela deve ser
-            apoiada em sua escolha (BRASIL, 2017 ,BRASIL, 2018; BRASIL, 2019).
+            podem ser mais apropriados (BRASIL, 2018; BRASIL, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            A massagem deve ser aplicada sempre que necessária, até mesmo no
+            abdome. Caso a gestante opte por técnicas de massagem que ela esteja
+            habituada ou que tenham sido ensinadas aos seus acompanhantes, ela
+            deve ser apoiada em sua escolha (BRASIL, 2017 ,BRASIL, 2018; BRASIL,
+            2019).
           </S.TextBlock>
           <S.TextBlock>
             A literatura não menciona a utilização de produtos para massagens no
             trabalho de parto; caso haja associação de produtos como óleos
-            essenciais, estes se enquadram na aromaterapia. O uso de produtos
-            como hidratantes, cremes e outros similares que são comumente
-            utilizados em massagens não são abordados na literatura para o uso
-            durante o trabalho de parto.
+            essenciais, estes se enquadram na aromaterapia (BRASIL, 2018;
+            BRASIL, 2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            O uso de produtos como hidratantes, cremes e outros similares que
+            são comumente utilizados em massagens não são abordados na
+            literatura para o uso durante o trabalho de parto (BRASIL, 2017
+            ,BRASIL, 2018; BRASIL, 2019).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento:</S.TextBold>
@@ -155,6 +163,7 @@ const Massage: React.FC = () => {
             varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
             intensa.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
             <S.TextBold>16. </S.TextBold>Realizar registro da intervenção e
             registro de acompanhamento dos sintomas e intensidade da dor.
