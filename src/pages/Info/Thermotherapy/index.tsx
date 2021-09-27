@@ -8,6 +8,7 @@ import backIcon from '../../../assets/icons/back.png';
 import png7 from '../../../assets/PNGS-7.png';
 import png9 from '../../../assets/PNGS-9.png';
 import zito from '../../../assets/PNGS-15.png';
+import eva from '../../../assets/eva-scale.png';
 
 const Thermotherapy: React.FC = () => {
   const navigation = useNavigation();
@@ -29,10 +30,16 @@ const Thermotherapy: React.FC = () => {
             Os cuidados que envolvem as propriedades térmicas são positivos para
             o controle da dor devido sua capacidade de promover relaxamento dos
             músculos pelo aumento do fluxo sanguíneo que vai ocorrer a partir da
-            dilatação dos vasos. O uso de compressas quentes e banhos quentes a
-            37ºC são exemplos aplicáveis. Banhos quentes de imersão podem
-            alterar os sinais vitais maternos, como o pulso e a temperatura
-            corporal, o que pode, de alguma forma, gerar efeitos sob o feto.
+            dilatação dos vasos (GAYESKI; BRÜGGEMANN, 2010; MASCARENHAS et al.,
+            2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            O uso de compressas quentes e banhos quentes a 37ºC são exemplos
+            aplicáveis. Banhos quentes de imersão podem alterar os sinais vitais
+            maternos, como o pulso e a temperatura corporal, o que pode, de
+            alguma forma, gerar efeitos sob o feto (MASCARENHAS et al., 2019).
+          </S.TextBlock>
+          <S.TextBlock>
             Portanto, essa prática deve ser aplicada de forma cautelosa para não
             afetar negativamente a evolução do parto. Acredita-se que tal
             prática é positiva no primeiro estágio do parto, mas também pode ser
@@ -43,24 +50,33 @@ const Thermotherapy: React.FC = () => {
             Os banhos devem ser oferecidos às parturientes sempre que possível,
             pois produzem sensação de relaxamento físico e psicológico. Não há
             um prazo determinado para a gestante permanecer no chuveiro, ela
-            pode ficar o tempo que quiser e que se sentir confortável. Caso o
-            centro obstétrico disponha de banheira, o banho de imersão na água
-            também é eficiente e deve ser promovido durante a fase ativa do
+            pode ficar o tempo que quiser e que se sentir confortável (BRASIL,
+            2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            Caso o centro obstétrico disponha de banheira, o banho de imersão na
+            água também é eficiente e deve ser promovido durante a fase ativa do
             parto, para não retardar o processo de parturição. Recomenda-se que
-            seja empregado a partir dos 4cm de dilatação cervical. A imersão
-            durante o primeiro período diminui a necessidade de analgesia
-            (GAYESKI; BRÜGGEMANN, 2010; BRASIL, 2016b; BRASIL, 2019; BRASIL,
-            2018). A associação entre banho quente com a bola suíça pode reduzir
-            significantemente a intensidade da dor (BARBIERI et al., 2013;
-            FARAHMAND et al., 2020; WHO, 2018).
+            seja empregado a partir dos 4cm de dilatação cervical (BRASIL,
+            2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            A imersão durante o primeiro período diminui a necessidade de
+            analgesia (GAYESKI; BRÜGGEMANN, 2010; BRASIL, 2016b; BRASIL, 2019;
+            BRASIL, 2018). A associação entre banho quente com a bola suíça pode
+            reduzir significantemente a intensidade da dor (BARBIERI et al.,
+            2013; FARAHMAND et al., 2020; WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             Compressas quentes e úmidas produzem vasodilatação e são usados como
-            sedativos, relaxantes musculares e analgésicos. As compressas
-            quentes secas são muito úteis no tratamento de espasmos musculares e
-            em processos dolorosos muito localizados, pois produzem sedação e
-            ajudam a reabsorção de produtos anti-inflamatórios (MASCARENHAS et
-            al., 2019).
+            sedativos, relaxantes musculares e analgésicos (MASCARENHAS et al.,
+            2019).
+          </S.TextBlock>
+          <S.TextBlock>
+            As compressas quentes secas são muito úteis no tratamento de
+            espasmos musculares e em processos dolorosos muito localizados, pois
+            produzem sedação e ajudam a reabsorção de produtos
+            anti-inflamatórios (MASCARENHAS et al., 2019).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento: </S.TextBold>
@@ -99,6 +115,11 @@ const Thermotherapy: React.FC = () => {
             produto deve ser adicionado no momento que a mesma já esteja dentro
             da banheira, colocando em média 15 a 20 gotas.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png7} />
+          <S.Legend>
+            FIGURA 5- Representação esquemática do banho de banheira como
+            alternativa de termoterapia
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>7. </S.TextBold>A presença do pai no momento é
             importante, pois pode trazer mais segurança a mãe e facilita o
@@ -145,6 +166,7 @@ const Thermotherapy: React.FC = () => {
             varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
             intensa.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
             <S.TextBold>15. </S.TextBold>Realizar registro da intervenção e
             registro de acompanhamento dos sintomas e intensidade da dor
@@ -153,11 +175,6 @@ const Thermotherapy: React.FC = () => {
             (BARBIERI et al., 2013; FARAHMAND et al., 2020; WHO, 2018). (2010;
             BRASIL, 2016b; BRASIL, 2019; BRASIL, 2018)
           </S.TextBlock>
-          <S.Image resizeMode="contain" source={png7} />
-          <S.Legend>
-            FIGURA 5- Representação esquemática do banho de banheira como
-            alternativa de termoterapia
-          </S.Legend>
           <S.Image resizeMode="contain" source={png9} />
           <S.Legend>
             FIGURA 6- Representação esquemática do banho de chuveiro como
