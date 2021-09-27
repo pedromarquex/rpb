@@ -47,59 +47,75 @@ const Labour: React.FC = () => {
             ocorre a dilatação total do colo sem sensação de puxo involuntário,
             com cabeça do bebê relativamente alta na pelve; e a ativa, em que há
             a dilatação total do colo, contrações de expulsão ou esforço materno
-            ativo e cabeça do bebê visível. O estágio ativo compreende o período
-            que se inicia com contrações uterinas regulares, grau de apagamento
-            mais acentuado, com dilatação a partir de 5cm até se tornar
-            completa. O período expulsivo, em geral, é identificado por meio da
-            dilatação cervical total, pelos puxos maternos e rotura espontânea
-            das membranas amnióticas. O terceiro período envolve desde o
-            nascimento do bebê até a expulsão da placenta e membranas, processo
-            de descida denominado dequitação (BRASIL, 2001; BRASIL, 2017; WHO,
+            ativo e cabeça do bebê visível (BRASIL, 2001; BRASIL, 2017; WHO,
             2018).
+          </S.TextBlock>
+          <S.TextBlock>
+            O estágio ativo compreende o período que se inicia com contrações
+            uterinas regulares, grau de apagamento mais acentuado, com dilatação
+            a partir 01 de 5cm até se tornar completa. O período expulsivo, em
+            geral, é identificado por meio da dilatação cervical total, pelos
+            puxos maternos e rotura espontânea das membranas amnióticas. O
+            terceiro período envolve desde o nascimento do bebê até a expulsão
+            da placenta e membranas, processo de descida denominado dequitação
+            (BRASIL, 2001; BRASIL, 2017; WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             Durante todo o trabalho de parto, o cuidado deve ser estabelecido
             por uma equipe médica e de enfermagem obstétrica, com acesso a
             medidas de alívio da dor, incluindo os recursos não farmacológicos,
-            analgesia regional e outras medidas analgésicas. A postura calma,
-            confiante e acolhedora dos profissionais é fundamental para a
-            interação com a parturiente, a fim de encorajá-la e tranquilizá-la.
-            Estabelecer o respeito, transmitir segurança às gestantes,
-            esclarecer dúvidas, além de propiciar um ambiente agradável são
-            medidas fundamentais em todo o trabalho de parto (AKBARZADEH et al.,
+            analgesia regional e outras medidas analgésicas. (AKBARZADEH et al.,
             2014; BRASIL, 2001; WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
+            A postura calma, confiante e acolhedora dos profissionais é
+            fundamental para a interação com a parturiente, a fim de encorajá-la
+            e tranquilizá-la. Estabelecer o respeito, transmitir segurança às
+            gestantes, esclarecer dúvidas, além de propiciar um ambiente
+            agradável são medidas fundamentais em todo o trabalho de parto
+            (AKBARZADEH et al., 2014; BRASIL, 2001; WHO, 2018).
+          </S.TextBlock>
+          <S.TextBlock>
             O uso de intervenções adicionais não é recomendado em situações em
-            que o trabalho de parto esteja em bom andamento e caso mãe e bebê
-            pertençam ao grupo de baixo risco, estejam bem e sem
-            intercorrências. Entretanto, no tocante ao progresso do parto, há
-            medidas que podem ser executadas em condições apropriadas para
-            facilitar a parturição, como: estimulação com ocitocina, ruptura
-            artificial de membranas, alívio farmacológico da dor (peridural,
-            opioides, óxido nitroso), manobra ativa no terceiro período e também
-            cuidados não farmacológicos para alívio da dor (BRASIL, 2017).
+            que o trabalho de parto estejam em bom andamento e caso mãe e bebê
+            pertençam ao grupo de baixo risco, estejam bem e sem intercorrências
+            (BRASIL, 2017).
+          </S.TextBlock>
+          <S.TextBlock>
+            Entretanto, no tocante ao progresso do parto, há medidas que podem
+            ser executadas em condições apropriadas para facilitar a parturição,
+            como: estimulação com ocitocina, ruptura artificial de membranas,
+            alívio farmacológico da dor (peridural, opioides, óxido nitroso),
+            manobra ativa no terceiro período e também cuidados não
+            farmacológicos para alívio da dor (BRASIL, 2017).
           </S.TextBlock>
           <S.TextBlock>
             A assistência recomendada inclui o cuidado holístico com as
             parturientes, fornecimento de informações à mulher, ao pai e
             acompanhante, estímulo à deambulação, ingestão de líquidos e
             alimentos por gestantes com poucas chances de utilização da
-            anestesia geral. Além disso, deve-se oferecer cuidados que
-            representam suporte físico e de apoio, entre eles medidas como
-            alongamento, sentar em cadeira e posições relaxantes que são
-            práticas que podem ser exercidas mediante dilatação de 3-8cm
-            (AKBARZADEH et al., 2014). Outras medidas são o controle da
-            frequência cardíaca fetal no intervalo de 15 a 30 minutos com uso de
-            Pinard ou Doppler e toque vaginal a cada quatro horas. No segundo
-            estágio, é importante possibilitar a autonomia e capacidade de
-            decisão da gestante permitindo, quando possível, que a gestante
-            escolha a posição durante o parto. O controle da frequência cardíaca
-            fetal deve ocorrer a cada cinco minutos. Na fase final, caso
-            necessário, pode ser administrada ocitocina na parturiente, e em
-            seguida é feita a tração controlada do cordão umbilical. Sugere-se
-            retardar o clampeamento do cordão caso não haja contraindicação
-            (WHO, 2018).
+            anestesia geral (AKBARZADEH et al., 2014).
+          </S.TextBlock>
+          <S.TextBlock>
+            Além disso, deve-se oferecer cuidados que representam suporte físico
+            e de apoio, entre eles medidas como alongamento, sentar em cadeira e
+            posições relaxantes que são práticas que podem ser exercidas
+            mediante dilatação de 3- 8cm (AKBARZADEH et al., 2014).
+          </S.TextBlock>
+          <S.TextBlock>
+            Outras medidas são o controle da frequência cardíaca fetal no
+            intervalo de 15 a 30 minutos com uso de Pinard ou Doppler e toque
+            vaginal a cada quatro horas. No segundo estágio, é importante
+            possibilitar a autonomia e capacidade de decisão da gestante
+            permitindo, quando possível, que a gestante escolha a posição
+            durante o parto (WHO, 2018).
+          </S.TextBlock>
+          <S.TextBlock>
+            O controle da frequência cardíaca fetal deve ocorrer a cada cinco
+            minutos. Na fase final, caso necessário, pode ser administrada
+            ocitocina na parturiente, e em seguida é feita a tração controlada
+            do cordão umbilical. Sugere-se retardar o clampeamento do cordão
+            caso não haja contraindicação (WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             As gestantes devem ter acompanhantes de sua escolha durante o
