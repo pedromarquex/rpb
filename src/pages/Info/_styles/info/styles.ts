@@ -46,6 +46,7 @@ export const Content = styled.View`
   margin-top: -40px;
   max-width: 90%;
   min-width: 90%;
+  min-height: 720px;
   background-color: #fff;
   flex: 1;
   border-radius: 8px;

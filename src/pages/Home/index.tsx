@@ -92,6 +92,14 @@ const Home: React.FC = () => {
           <S.OptionText>Musicoterapia e{'\n'}Audionalgesia</S.OptionText>
           <Image source={chevron} />
         </S.Option>
+        <S.Option
+          onPress={() => {
+            navigation.navigate('Stopwatch');
+          }}
+        >
+          <S.OptionText>Cronômetro de Contrações</S.OptionText>
+          <Image source={chevron} />
+        </S.Option>
         <View style={{ marginBottom: 80 }} />
       </S.OptionsContainer>
     </S.Container>
