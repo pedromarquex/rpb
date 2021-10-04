@@ -108,6 +108,14 @@ const Home: React.FC = () => {
           <S.OptionText>Escala da Dor</S.OptionText>
           <Image source={chevron} />
         </S.Option>
+        <S.Option
+          onPress={() => {
+            navigation.navigate('About');
+          }}
+        >
+          <S.OptionText>Sobre o aplicativo</S.OptionText>
+          <Image source={chevron} />
+        </S.Option>
         <View style={{ marginBottom: 80 }} />
       </S.OptionsContainer>
     </S.Container>
