@@ -89,15 +89,9 @@ const Yoga: React.FC = () => {
             <S.TextBold>5. </S.TextBold>Quando a paciente sentir uma contração,
             peça para que ela sinalize e classifique em: leve, moderada ou
             forte, utilize o{' '}
-            <S.Link
-              onPress={() =>
-                Linking.openURL(
-                  'https://pt.calcuworld.com/calculadorasdegravidez/contracoes/'
-                )
-              }
-            >
-              temporizador de contração{' '}
-            </S.Link>
+            <S.Link onPress={() => navigation.navigate('Stopwatch')}>
+              temporizador de contrações
+            </S.Link>{' '}
             para melhorar o processo.
           </S.TextBlock>
           <S.TextBlock>

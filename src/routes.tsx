@@ -13,6 +13,7 @@ import Prayer from './pages/Info/Prayer';
 import SwissBall from './pages/Info/SwissBall';
 import MusicTherapy from './pages/Info/MusicTherapy';
 import Stopwatch from './pages/Stopwatch';
+import Scale from './pages/Scale';
 
 const AppStack = createStackNavigator();
 
@@ -38,6 +39,7 @@ const Routes = () => (
       <AppStack.Screen name="SwissBall" component={SwissBall} />
       <AppStack.Screen name="MusicTherapy" component={MusicTherapy} />
       <AppStack.Screen name="Stopwatch" component={Stopwatch} />
+      <AppStack.Screen name="Scale" component={Scale} />
     </AppStack.Navigator>
   </NavigationContainer>
 );

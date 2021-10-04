@@ -164,7 +164,10 @@ const Thermotherapy: React.FC = () => {
             <S.TextBold>14. </S.TextBold>Para definir a percepção da dor durante
             o trabalho de parto, utilize a escala visual analógica (EVA) que
             varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
-            intensa.
+            intensa.{' '}
+            <S.Link onPress={() => navigation.navigate('Scale')}>
+              Clique aqui para utilizar a escala
+            </S.Link>
           </S.TextBlock>
           <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
