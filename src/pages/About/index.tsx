@@ -9,6 +9,7 @@ import zito from '../../assets/PNGS-14.png';
 import ufpi from '../../assets/ufpi.png';
 import hospital from '../../assets/hospital.png';
 import mestrado from '../../assets/mestrado.png';
+import sesapi from '../../assets/sesapi.png';
 
 const About: React.FC = () => {
   const navigation = useNavigation();
@@ -29,6 +30,7 @@ const About: React.FC = () => {
           <S.Image resizeMode="contain" source={ufpi} />
           <S.Image resizeMode="contain" source={mestrado} />
           <S.Image resizeMode="contain" source={hospital} />
+          <S.Image resizeMode="contain" source={sesapi} />
         </S.Content>
       </S.ContentContainer>
     </ScrollView>
