@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
-import zito from '../../../assets/PNGS-16.png';
+import zito from '../../../assets/PNGS-15.png';
 import aromatherapy from '../../../assets/PNGS-10.png';
 
 const Aromatherapy: React.FC = () => {
