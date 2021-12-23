@@ -5,8 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import * as S from '../_styles/info/styles';
 
 import backIcon from '../../../assets/icons/back.png';
-import png11 from '../../../assets/PNGS-11.png';
-import zito from '../../../assets/PNGS-16.png';
+import zito from '../../../assets/PNGS-15.png';
 import yoga from '../../../assets/PNGS-11.png';
 
 const Yoga: React.FC = () => {
@@ -97,7 +96,7 @@ const Yoga: React.FC = () => {
             contar – (5 4 3 2 1), ou seja , de modo decrescente e oposta ao da
             inspiração.
           </S.TextBlock>
-          <S.Image resizeMode="contain" source={png11} />
+          <S.Image resizeMode="contain" source={yoga} />
           <S.Legend>FIGURA 7- Representação esquemática posição Yoga.</S.Legend>
           <S.TextBlock>
             (SMITH et al., 2018; DESMAWATI et al., 2020).
