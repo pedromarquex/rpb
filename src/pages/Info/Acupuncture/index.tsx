@@ -34,37 +34,44 @@ const Acupuncture: React.FC = () => {
             style={{ marginBottom: 30 }}
           />
           <S.TextBlock>
-            Terapias chinesas que estimulam as terminações nervosas do corpo
-            para obter o equilíbrio da energia vital. Esse estímulo é aplicado
-            em determinadas áreas do corpo, conhecidas como pontos de energia,
-            por meio da aplicação de agulhas (acupuntura), mais ultilizadas
-            durante a gestação, ou de pressão na pele da região (acupressão),
-            mais ultilizadas no período pré parto (MAFETONI; SHIMO, 2016).
+            As terapias chinesas acontecem por meio do estímulo nas terminações
+            nervosas do corpo para obter o equilíbrio de energia vital e são
+            implementadas através da aplicação de agulhas (acupuntura) ou por
+            aplicação de uma pressão na pele da região (acupressão), sendo
+            necessário um profissional habilitado para que essa prática seja
+            realizada. Os pontos mais comuns da acupuntura são o BL32, BP6 e SP6
+            ou sanyinjiao. (ALLAMEH; TEHRANI; GHASEMI, 2015; AKBARZADEH et al.,
+            2014; BRASIL, 2017; HAMID; OBAYA; GAAFAR, 2013; MAFETONI; SHIMO,
+            2016).
           </S.TextBlock>
           <S.TextBlock>
-            A realização da acupuntura/acupressão gera a diminuição da dor por
-            meio da estabilidade da energia corporal e também pela liberação de
-            endorfinas no Sistema Nervoso Central (MAFETONI; SHIMO, 2016).
+            O ponto SP6 está localizado na largura de aproximadamente quatro
+            dedos acima da ponta do maléolo interno (osso da canela dentro do
+            tornozelo) logo posterior à borda da tíbia (ALLAMEH; TEHRANI;
+            GHASEMI, 2015; AKBARZADEH et al., 2014; BRASIL, 2017; HAMID; OBAYA;
+            GAAFAR, 2013; MAFETONI; SHIMO, 2016).
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png5} />
+          <S.Legend>
+            FIGURA 1 - Representação esquemática do ponto Sp6 Sanyinjiao.
+          </S.Legend>
           <S.TextBlock>
-            Além disso, essa prática quando realizada em pontos estratégicos
-            pode influenciar na descida do bebê para a região pélvica (ALLAMEH;
-            TEHRANI; GHASEMI, 2015; BRASIL, 2001; HAMID; OBAYA; GAAFAR, 2013;
-            MAFETONI; SHIMO, 2016).
+            O ponto BL32 encontra-se no segundo orifício do osso sacral,
+            aproximadamente um dedo indicador de distância acima da parte
+            superior do vinco das nádegas enquanto o ponto BP6 está localizado
+            no meridiano baço-pâncreas, a quatro dedos acima da ponta do maléolo
+            interno, na parte posterior à frente da tíbia (região acima do
+            tornozelo). O toque nessas áreas promove efeito de analgesia
+            (AKBARZADEH et al., 2014; HAMID; OBAYA; GAAFAR, 2013; MAFETONI;
+            SHIMO, 2016).
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png4} />
+          <S.Legend>
+            FIGURA 2-Representação esquemática dos pontos BL31 Shanglia, BL32
+            Ciliao e BL33 Zong Liao.
+          </S.Legend>
           <S.TextBlock>
-            Há indícios de que a acupressão pode ser mais eficaz no período de
-            dilatação de até 8cm e mediante apresentação feto-cefálica alta
-            (MAFETONI; SHIMO, 2016).
-          </S.TextBlock>
-          <S.TextBlock>
-            É importante ressaltar que essa técnica necessita de um profissional
-            habilitado para realizá-lo (BRASIL, 2017).
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>Procedimento</S.TextBold>: A técnica de acupressão e
-            suas variações podem ser aplicadas em diferentes áreas do corpo
-            promovendo efeito de analgesia.
+            <S.TextBold>Procedimento</S.TextBold>:
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>1. </S.TextBold>Higienizar as mãos
@@ -109,24 +116,17 @@ const Acupuncture: React.FC = () => {
             Realizar registro da intervenção e registro de acompanhamento dos
             sintomas e intensidade da dor.
           </S.TextBlock>
-          <S.TextBlock>
-            (AKBARZADEH et al., 2014; HAMID; OBAYA; GAAFAR, 2013; MAFETONI;
-            SHIMO, 2016).
-          </S.TextBlock>
-
-          <S.Image resizeMode="contain" source={png5} />
-          <S.Legend>
-            FIGURA 1 - Representação esquemática do ponto Sp6 Sanyinjiao.
-          </S.Legend>
-
-          <S.Image resizeMode="contain" source={png4} />
-          <S.Legend>
-            FIGURA 2-Representação esquemática dos pontos BL31 Shanglia, BL32
-            Ciliao e BL33 Zong Liao.
-          </S.Legend>
 
           <S.TextBlock>
-            <S.TextBold>- AURICULOTERAPIA</S.TextBold>
+            <S.TextBold>AURICULOTERAPIA</S.TextBold>: a acupressão pode ser
+            empregada em diferentes áreas do corpo, como na região auricular,
+            por exemplo. Na técnica de auriculoterapia, o estímulo acontece por
+            meio da fixação de microesferas de cristais em determinados pontos
+            da orelha. Os cristais são fixados por adesivos na orelha das
+            gestantes, realizando-se uma leve pressão que irá ser mantida por
+            cerca de um minuto até o momento em que esta pressão gere uma
+            sensação dolorosa e ative o ponto de energia causando a liberação de
+            endorfinas (MAFETONI et al., 2019).
           </S.TextBlock>
           <S.TextBlock>
             Na técnica de auriculoterapia, o estímulo acontece por meio da
@@ -191,54 +191,49 @@ const Acupuncture: React.FC = () => {
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold> I) Shen Men</S.TextBold>, que predispõe o tronco
-            cerebral e o córtex a receber, condicionar e codificar os reflexos
-            auriculares, tendo efeitos sedativos, analgésicos;
-          </S.TextBlock>
-          <S.TextBlock>
+            cerebral e o córtex a receber,{' '}
+            <S.TextUnderlined>
+              condicionar e codificar os reflexos auriculares
+            </S.TextUnderlined>
+            , tendo efeitos{' '}
+            <S.TextUnderlined>sedativos, analgésicos</S.TextUnderlined>;
             <S.TextBold> II) Útero</S.TextBold>, que é indicado nas alterações
-            ginecológicas e obstétricas, na indução do parto ou redução do
-            período expulsivo e na redução da dor no pós-parto;
-          </S.TextBlock>
-          <S.TextBlock>
+            <S.TextUnderlined>ginecológicas e obstétricas</S.TextUnderlined>, na
+            indução do parto ou redução do período expulsivo e na redução da dor
+            no pós-parto;
             <S.TextBold> III) </S.TextBold>área de
             <S.TextBold> Neurastenia</S.TextBold>, indicado para o tratamento da
-            ansiedade;
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold> IV) Endócrino</S.TextBold>, que regula as funções das
-            glândulas de secreção endógenas, sendo usado em distúrbios
-            ginecológicos, entre outros.
+            <S.TextUnderlined>ansiedade</S.TextUnderlined>;
+            <S.TextBold> IV) Endócrino</S.TextBold>, que{' '}
+            <S.TextUnderlined>
+              regula as funções das glândulas de secreção endógenas
+            </S.TextUnderlined>
+            , sendo usado em distúrbios ginecológicos, entre outros.
           </S.TextBlock>
           <S.Image resizeMode="contain" source={png3} />
           <S.Legend>
             FIGURA 3-Localização dos pontos auriculares utilizados.
           </S.Legend>
           <S.TextBlock>
-            <S.TextBold>8. </S.TextBold>Achado os pontos acima utilize esferas
-            de cristal polido com 1,5mm ou sementes de mostarda, aderidas à pele
-            com fitas hipoalérgicas
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>9. </S.TextBold>Faça a fixação dos cristais ou das
-            sementes e realize uma leve pressão que deve ser mantida por um
-            minuto ou por um intervalo de tempo semelhante ou até mesmo em que a
-            pressão gere uma sensação dolorosa e ative o ponto de energia,
+            <S.TextBold>8. </S.TextBold>Achado os pontos, fixe à pele as esferas
+            de cristal polido com 1,5mm ou sementes de mostarda com fitas
+            hipoalérgicas, e realize uma leve pressão que deve ser mantida por
+            um minuto ou por um intervalo de tempo semelhante ou até mesmo em
+            que a pressão gere uma sensação dolorosa e ative o ponto de energia,
             causando liberação de endorfinas.
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>10. </S.TextBold>Para definir a percepção da dor durante
-            o trabalho de parto, utilize a escala visual analógica (EVA) que
-            varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
-            intensa.{' '}
+            <S.TextBold>9. </S.TextBold>Para definir a percepção da dor durante
+            o TP, utilize a escala visual analógica (EVA) que varia de 0 a 10,
+            em que o 0 é ausência de dor e 10 significa dor intensa.{' '}
             <S.Link onPress={() => navigation.navigate('Scale')}>
               Clique aqui para utilizar a escala
             </S.Link>
           </S.TextBlock>
           <S.Image resizeMode="contain" source={eva} />
           <S.TextBlock>
-            <S.TextBold>11. </S.TextBold>Realizar registro da intervenção e
+            <S.TextBold>10. </S.TextBold>Realizar registro da intervenção e
             registro de acompanhamento dos sintomas e intensidade da dor.
-            (MAFETONI et al., 2019).
           </S.TextBlock>
         </S.Content>
       </S.ContentContainer>

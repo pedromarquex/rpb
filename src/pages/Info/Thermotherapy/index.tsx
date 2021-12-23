@@ -27,56 +27,26 @@ const Thermotherapy: React.FC = () => {
       <S.ContentContainer>
         <S.Content>
           <S.TextBlock>
-            Os cuidados que envolvem as propriedades térmicas são positivos para
-            o controle da dor devido sua capacidade de promover relaxamento dos
-            músculos pelo aumento do fluxo sanguíneo que vai ocorrer a partir da
-            dilatação dos vasos (GAYESKI; BRÜGGEMANN, 2010; MASCARENHAS et al.,
+            São cuidados que envolvem as propriedades térmicas, como compressas
+            e banhos quentes. São técnicas positivas para o controle da dor
+            devido sua capacidade de promover relaxamento muscular pelo aumento
+            do fluxo sanguíneo que ocorre a partir da dilatação dos vasos. O
+            alívio da dor acontece devido à estimulação dos termorreceptores da
+            epiderme que são ativados pelo banho quente e irão alcançar o
+            cérebro mais rápido que os receptores da dor. Além disso, o calor
+            tende a acentuar a circulação do sangue e assim acalmar o estresse
+            que provém das contrações uterinas. A associação entre banho quente
+            com a bola suíça pode reduzir significantemente a intensidade da dor
+            (BARBIERI et al., 2013; FARAHMAND et al., 2020; WHO, 2018).
+          </S.TextBlock>
+          <S.TextBlock>
+            Essa prática deve ser realizada de forma rápida, pois banhos quentes
+            de imersão podem alterar os sinais vitais maternos, como o pulso e a
+            temperatura corporal, e isso pode de alguma forma, gerar efeitos sob
+            o feto. Acredita-se que seja positiva no primeiro estágio do parto,
+            mas também pode ser aplicada na região lombar e perineal durante o
+            período expulsivo (GAYESKI; BRÜGGEMANN, 2010; MASCARENHAS et al.,
             2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            O uso de compressas quentes e banhos quentes a 37ºC são exemplos
-            aplicáveis. Banhos quentes de imersão podem alterar os sinais vitais
-            maternos, como o pulso e a temperatura corporal, o que pode, de
-            alguma forma, gerar efeitos sob o feto (MASCARENHAS et al., 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Portanto, essa prática deve ser aplicada de forma cautelosa para não
-            afetar negativamente a evolução do parto. Acredita-se que tal
-            prática é positiva no primeiro estágio do parto, mas também pode ser
-            aplicada na região lombar e perineal durante o período expulsivo
-            (GAYESKI; BRÜGGEMANN, 2010; MASCARENHAS et al., 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Os banhos devem ser oferecidos às parturientes sempre que possível,
-            pois produzem sensação de relaxamento físico e psicológico. Não há
-            um prazo determinado para a gestante permanecer no chuveiro, ela
-            pode ficar o tempo que quiser e que se sentir confortável (BRASIL,
-            2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Caso o centro obstétrico disponha de banheira, o banho de imersão na
-            água também é eficiente e deve ser promovido durante a fase ativa do
-            parto, para não retardar o processo de parturição. Recomenda-se que
-            seja empregado a partir dos 4cm de dilatação cervical (BRASIL,
-            2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            A imersão durante o primeiro período diminui a necessidade de
-            analgesia (GAYESKI; BRÜGGEMANN, 2010; BRASIL, 2016b; BRASIL, 2019;
-            BRASIL, 2018). A associação entre banho quente com a bola suíça pode
-            reduzir significantemente a intensidade da dor (BARBIERI et al.,
-            2013; FARAHMAND et al., 2020; WHO, 2018).
-          </S.TextBlock>
-          <S.TextBlock>
-            Compressas quentes e úmidas produzem vasodilatação e são usados como
-            sedativos, relaxantes musculares e analgésicos (MASCARENHAS et al.,
-            2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            As compressas quentes secas são muito úteis no tratamento de
-            espasmos musculares e em processos dolorosos muito localizados, pois
-            produzem sedação e ajudam a reabsorção de produtos
-            anti-inflamatórios (MASCARENHAS et al., 2019).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento: </S.TextBold>

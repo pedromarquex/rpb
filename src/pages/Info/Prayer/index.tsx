@@ -24,17 +24,16 @@ const Prayer: React.FC = () => {
       <S.ContentContainer>
         <S.Content>
           <S.TextBlock>
-            A <S.TextBold>oração</S.TextBold> envolve os aspectos emocionais,
-            espirituais e culturais do ser humano e pode gerar efeitos positivos
-            no parto, estimulando ânimo e disposição. Algumas gestantes costumam
-            obter conforto e força por meio de textos sagrados e orações lidas
-            por seus companheiros durante o trabalho de parto, como um suporte
-            espiritual (WHO, 2018).
+            A oração envolve os aspectos emocionais, espirituais e culturais do
+            ser humano e pode gerar efeitos positivos no parto, estimulando
+            ânimo e disposição. Algumas gestantes costumam obter conforto e
+            força por meio de textos sagrados e orações lidas por seus
+            companheiros durante o trabalho de parto, como um suporte espiritual
+            (WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             Algumas orações podem ser rezadas neste momento como a de Nossa
-            Senhora do Bom Parto, onde, ao longo dos anos, inúmeras famílias e
-            principalmente gestantes invocam a proteção da virgem.:
+            Senhora do Bom Parto:
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Católica</S.TextBold>

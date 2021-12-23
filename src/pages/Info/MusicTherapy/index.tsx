@@ -29,16 +29,15 @@ const MusicTherapy: React.FC = () => {
             A <S.TextBold>musicoterapia </S.TextBold>e{' '}
             <S.TextBold>audioanalgesia </S.TextBold> correspondem a utilização
             de músicas e sons para prática terapêutica a fim de produzir efeitos
-            analgésicos. Pode parecer supérfluo, mas uma boa música pode ajudar
-            a relaxar e entrar em contato com os sentimentos e sensações desse
-            momento maravilhoso que é o nascimento de um filho. Essa medida deve
-            ser apoiada durante o trabalho de parto e as gestantes podem
-            escolher as músicas segundo seu desejo, para que a terapia propicie
-            bons resultados. Entretanto, são necessárias mais evidências que
-            comprovem a eficiência (BRASIL, 2016b; SMITH et al., 2006). Abaixo
-            segue o link de sugestões de músicas que podem ser utilizadas no
-            momento do pré-parto e parto, todas falam de renovação, de chegada,
-            de presença, de amor.
+            analgésicos. Apesar de serem necessárias mais evidências que
+            comprovem a eficiência durante o TP (BRASIL, 2016b; SMITH et al.,
+            2006), uma música pode ajudar a relaxar e entrar em contato com os
+            sentimentos e sensações.
+          </S.TextBlock>
+          <S.TextBlock>
+            As gestantes podem escolher as músicas segundo seu desejo, para que
+            a terapia propicie bons resultados. Abaixo segue o link de sugestões
+            de músicas que podem ser utilizadas no momento do pré-parto e parto
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>1. Reconhecimento – Isadora Canto</S.TextBold> {'\n'}

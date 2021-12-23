@@ -28,56 +28,43 @@ const SwissBall: React.FC = () => {
       <S.ContentContainer>
         <S.Content>
           <S.TextBlock>
-            A bola suíça, conhecida como bola obstétrica pode ser usada diversas
-            vezes ao longo do trabalho de parto, a depender da vontade da
-            parturiente (CARRIÈRE, 2018).
-          </S.TextBlock>
-          <S.TextBlock>
-            Carrière (2018), enfatiza que a utilização da bola consiste na
-            possibilidade de a parturiente poder relaxar ao realizar movimentos
-            de sua preferência (circulares, para frente e para trás) sob esse
-            objeto terapêutico.
+            Conhecida como bola obstétrica, pode ser usada diversas vezes ao
+            longo do trabalho de parto, a depender da vontade da parturiente. A
+            utilização da bola consiste na possibilidade de a parturiente poder
+            relaxar ao realizar movimentos de sua preferência (circulares, para
+            frente e para trás) sob esse objeto terapêutico (CARRIÈRE, 2018;
+            BRASIL, 2019).
           </S.TextBlock>
           <S.TextBlock>
             Esse recurso permite a mobilidade pélvica, estimula a dilatação e a
-            descida fetal, além de diminuir o desconforto doloroso (CARRIÈRE,
-            2018).
-          </S.TextBlock>
-          <S.TextBlock>
-            A realização de exercícios com a bola na posição vertical (sentada)
-            trabalha a musculatura do assoalho pélvico, em especial, os músculos
+            descida fetal, além de diminuir o desconforto doloroso. A realização
+            de exercícios com a bola na posição vertical (sentada) trabalha a
+            musculatura do assoalho pélvico, em especial, os músculos
             levantadores do ânus e pubococcígeos e a fáscia da pelve (CARRIÈRE,
             2018).
           </S.TextBlock>
           <S.TextBlock>
-            Permanecer na posição vertical traz benefícios para a parturiente,
-            como a diminuição do tempo de duração do primeiro estágio do
-            trabalho de parto, alívio da dor e tensão (SILVA et al., 2010).
+            Permanecer na posição vertical traz benefícios como a diminuição do
+            tempo de duração do primeiro estágio do trabalho de parto, alívio da
+            dor e tensão (SILVA et al., 2010). Recomenda-se que a bola não
+            esteja muito cheia, pois isso pode deixá-la mais resistente e menos
+            flexível para se moldar ao períneo quando a mulher se sentar nela
+            (BRASIL, 2019).
           </S.TextBlock>
           <S.TextBlock>
-            Silva et al., (2010) recomenda que a bola não esteja muito cheia,
-            pois isso pode deixá-la mais resistente e menos flexível para se
-            moldar ao períneo quando a mulher se sentar nela.
+            <S.TextBold>Procedimento:</S.TextBold>
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>Procedimento: </S.TextBold>
+            <S.TextBold>1. </S.TextBold>No período de dilatação inicial não deve
+            ser realizado movimentos de abaixar e levantar (quicando) na bola,
+            pois este movimento pode gerar um edema no colo uterino.
           </S.TextBlock>
           <S.TextBlock>
-            No período de dilatação inicial não deve ser realizado movimentos de
-            abaixar e levantar (quicando) na bola, pois este movimento pode
-            gerar um edema no colo uterino (BRASIL, 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Em caso de dilatação total, a gestante pode fazer movimentos de
-            subir e descer com cautela e usando uma proteção ou cobertura para
-            que a região perineal não fique em contato direto com a bola. A
-            bolsa rota não contraindica o uso da bola suíça (BRASIL, 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Seguem exemplos de exercícios sobre a bola suíça que promovem a
-            postura vertical, alívio de dor, relaxamento e diminuição das
-            tensões, além de diminuir o período da fase ativa do trabalho de
-            parto:
+            <S.TextBold>2. </S.TextBold>Em caso de dilatação total, solicite que
+            a parturiente faça movimentos de subir e descer com cautela e usando
+            uma proteção ou cobertura para que a região perineal não fique em
+            contato direto com a bola. A bolsa rota não contraindica o uso da
+            bola suíça (BRASIL, 2019).
           </S.TextBlock>
           <S.Image resizeMode="contain" source={png1} />
           <S.Legend>

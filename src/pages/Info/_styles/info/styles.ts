@@ -62,6 +62,24 @@ export const TextBlock = styled.Text`
   margin-bottom: 30px;
 `;
 
+export const TextItalic = styled.Text`
+  line-height: 28px;
+  font-family: 'Poppins_400Regular';
+  font-style: italic;
+  font-size: 16px;
+  color: #6a6180;
+  margin-bottom: 30px;
+`;
+
+export const TextUnderlined = styled.Text`
+  line-height: 28px;
+  font-family: 'Poppins_400Regular';
+  text-decoration-line: underline;
+  font-size: 16px;
+  color: #6a6180;
+  margin-bottom: 30px;
+`;
+
 export const Image = styled.Image`
   height: 300px;
   width: 100%;

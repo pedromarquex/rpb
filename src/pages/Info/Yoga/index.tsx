@@ -32,29 +32,20 @@ const Yoga: React.FC = () => {
           />
           <S.TextBlock>
             Não existe comprovação científica que o Ioga é efetivo em nenhuma
-            das fases do trabalho de parto, porém se ela for realizada durante a
-            gestação poderá ser eficaz no controle da ansiedade, respiração e
-            relaxamento (DESMAWATI et al., 2020).
+            das fases do TP, porém se ela for realizado durante a gestação
+            poderá ser eficaz no controle da ansiedade, respiração e
+            relaxamento. Durante a gestação, os{' '}
+            <S.TextBold>pranayamas</S.TextBold> s (controle da energia vital por
+            meio da respiração) cumprem um papel importante para o controle da
+            pressão arterial, além de relaxar, distender e deixar mais flexível
+            a musculatura da parede abdominal e a região torácica para que se
+            tenha um melhor controle da dor durante a fase ativa do parto
+            (DESMAWATI et al., 2020).
           </S.TextBlock>
           <S.TextBlock>
-            Durante a gestação, os <S.TextBold>pranayamas</S.TextBold> (controle
-            da energia vital por meio da respiração) cumprem um papel importante
-            para o controle da pressão arterial, além de relaxar, distender e
-            deixar mais flexível a musculatura da parede abdominal e a região
-            torácica para que se tenha um melhor controle da dor durante a fase
-            ativa do parto (DESMAWATI et al., 2020).
-          </S.TextBlock>
-          <S.TextBlock>
-            Técnicas respiratórias também propiciam relaxamento e concentração,
-            pois diminuem a fadiga causada pelas contrações uterinas e podem
-            gerar uma sensação de tranquilidade, reduzindo o foco na dor da
-            contração (DESMAWATI et al., 2020).
-          </S.TextBlock>
-          <S.TextBlock>
-            O método descrito a seguir deve ser empregado principalmente no
-            primeiro estágio do parto (latente), pois irá causar o relaxamento
-            dos músculos abdominais e diminuir o desconforto (BRASIL, 2018;
-            BRASIL, 2019; WHO, 2018).
+            O método descrito abaixo deve ser empregado principalmente na fase
+            de dilatação do TP, pois irá causar o relaxamento dos músculos
+            abdominais e diminuir o desconforto (BRASIL, 2018; 2019; WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento: </S.TextBold>
@@ -99,11 +90,7 @@ const Yoga: React.FC = () => {
             exercício de Sama Vritti Pranayama (Ioga-Respiração Equalizada).
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>7. </S.TextBold>Oriente que inspiração deve ser pelo
-            nariz e expiração pela boca.
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>8. </S.TextBold>Iniciar a inspiração
+            <S.TextBold>7. </S.TextBold>Oriente que ela inicie a inspiração
             <S.TextBold> Sama Vritti Pranayama</S.TextBold>, peça para que ela
             conte mentalmente e inspire o ar pelo nariz contando de 1 à 5 – (1 2
             3 4 5). Quando a mesma expirar, oriente a soltar o ar pela boca e
