@@ -74,6 +74,11 @@ const Massage: React.FC = () => {
             cadeira também é um arranjo útil; neste caso, a paciente deve
             inclinar-se para a frente.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png19} />
+          <S.Legend>
+            FIGURA 4.1 - Demonstração da técnica de massagem na promoção do
+            relaxamento e alívio da dor.
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>4. </S.TextBold>Em um vidro escuro faça a diluição de 30
             gotas de óleo essencial (Casca de Canela, Canela-Cássia, Cravo,
@@ -97,8 +102,13 @@ const Massage: React.FC = () => {
           <S.TextBlock>
             <S.TextBold>7. </S.TextBold>Apresente as mãos ao corpo da
             parturiente, colocando-as espalmadas na parte superior ou inferior
-            das costas e mantendoas lá durante 15 segundos;
+            das costas e mantendo-as lá durante 15 segundos;
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png20} />
+          <S.Legend>
+            FIGURA 4.2 - Demonstração da técnica de massagem na promoção do
+            relaxamento e alívio da dor.
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>8. </S.TextBold>Manter sempre o contato de uma das mãos
             no corpo da mulher, mesmo quando esta se desloca de uma parte do
@@ -115,6 +125,11 @@ const Massage: React.FC = () => {
             utilize movimentos leves e longos no início; depois, quando a área
             estiver relaxada, aumente a pressão.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png21} />
+          <S.Legend>
+            FIGURA 4.3 - Demonstração da técnica de massagem na promoção do
+            relaxamento e alívio da dor.
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>11. </S.TextBold>Para massajar áreas maiores, faça um
             leque para fora no fim de um movimento longo sobre as costas e as
@@ -136,12 +151,22 @@ const Massage: React.FC = () => {
             aplique uma pressão. Esta massagem nunca deve ser feita diretamente
             sobre a coluna vertebral.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png22} />
+          <S.Legend>
+            FIGURA 4.4 - Demonstração da técnica de massagem na promoção do
+            relaxamento e alívio da dor.
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>14. </S.TextBold>Com as mãos você deve massagear da
             região glútea no sentido ascendente até ao nível da cintura. Em
             seguida, os dedos de ambas as mãos viram para dentro e os cotovelos
             viram para o exterior.
           </S.TextBlock>
+          <S.Image resizeMode="contain" source={png23} />
+          <S.Legend>
+            FIGURA 4.5 - Demonstração da técnica de massagem na promoção do
+            relaxamento e alívio da dor.
+          </S.Legend>
           <S.TextBlock>
             <S.TextBold>15. </S.TextBold>Para definir a percepção da dor durante
             o trabalho de parto, utilize a escala visual analógica (EVA) que
@@ -156,31 +181,6 @@ const Massage: React.FC = () => {
             <S.TextBold>16. </S.TextBold>Realizar registro da intervenção e
             registro de acompanhamento dos sintomas e intensidade da dor.
           </S.TextBlock>
-          <S.Image resizeMode="contain" source={png19} />
-          <S.Legend>
-            FIGURA 4.1 - Demonstração da técnica de massagem na promoção do
-            relaxamento e alívio da dor.
-          </S.Legend>
-          <S.Image resizeMode="contain" source={png20} />
-          <S.Legend>
-            FIGURA 4.2 - Demonstração da técnica de massagem na promoção do
-            relaxamento e alívio da dor.
-          </S.Legend>
-          <S.Image resizeMode="contain" source={png21} />
-          <S.Legend>
-            FIGURA 4.3 - Demonstração da técnica de massagem na promoção do
-            relaxamento e alívio da dor.
-          </S.Legend>
-          <S.Image resizeMode="contain" source={png22} />
-          <S.Legend>
-            FIGURA 4.4 - Demonstração da técnica de massagem na promoção do
-            relaxamento e alívio da dor.
-          </S.Legend>
-          <S.Image resizeMode="contain" source={png23} />
-          <S.Legend>
-            FIGURA 4.5 - Demonstração da técnica de massagem na promoção do
-            relaxamento e alívio da dor.
-          </S.Legend>
         </S.Content>
       </S.ContentContainer>
     </ScrollView>
