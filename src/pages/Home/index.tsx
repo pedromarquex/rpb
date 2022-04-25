@@ -25,7 +25,7 @@ const Home: React.FC = () => {
             navigation.navigate('Labour');
           }}
         >
-          <S.OptionText>O trabalho de parto</S.OptionText>
+          <S.OptionText>O pré-parto</S.OptionText>
           <Image source={chevron} />
         </S.Option>
         <S.Option

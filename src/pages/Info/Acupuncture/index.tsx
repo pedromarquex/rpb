@@ -37,19 +37,18 @@ const Acupuncture: React.FC = () => {
             As terapias chinesas acontecem por meio do estímulo nas terminações
             nervosas do corpo para obter o equilíbrio de energia vital e são
             implementadas através da aplicação de agulhas (acupuntura) ou por
-            aplicação de uma pressão na pele da região (acupressão), sendo
+            aplicação de uma pressão na pele da região (acupressão). É
             necessário um profissional habilitado para que essa prática seja
-            realizada. Os pontos mais comuns da acupuntura são o BL32, BP6 e SP6
-            ou sanyinjiao. (ALLAMEH; TEHRANI; GHASEMI, 2015; AKBARZADEH et al.,
-            2014; BRASIL, 2017; HAMID; OBAYA; GAAFAR, 2013; MAFETONI; SHIMO,
-            2016).
+            realizada.
           </S.TextBlock>
           <S.TextBlock>
-            O ponto SP6 está localizado na largura de aproximadamente quatro
-            dedos acima da ponta do maléolo interno (osso da canela dentro do
-            tornozelo) logo posterior à borda da tíbia (ALLAMEH; TEHRANI;
-            GHASEMI, 2015; AKBARZADEH et al., 2014; BRASIL, 2017; HAMID; OBAYA;
-            GAAFAR, 2013; MAFETONI; SHIMO, 2016).
+            Os pontos mais comuns da acupuntura são o SP6 ou sanyinjiao, BL32 e
+            BP6. O ponto SP6 está localizado na largura de aproximadamente
+            quatro dedos acima da ponta do maléolo interno (osso da canela
+            dentro do tornozelo) logo posterior à borda da tíbia (ALLAMEH;
+            TEHRANI; GHASEMI, 2015; AKBARZADEH et al., 2014; BRASIL, 2017;
+            HAMID; OBAYA; GAAFAR, 2013; MAFETONI; SHIMO, 2016; SMITH et al.,
+            2020).
           </S.TextBlock>
           <S.Image resizeMode="contain" source={png5} />
           <S.Legend>
@@ -74,38 +73,38 @@ const Acupuncture: React.FC = () => {
             <S.TextBold>Procedimento</S.TextBold>:
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>1. </S.TextBold>Higienizar as mãos
+            <S.TextBold>1. </S.TextBold>Higienize as mãos;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>2. </S.TextBold>
-            Avalie e escolha qual a região você irá fazer a técnica
+            Avalie e escolha qual a região você irá fazer a técnica;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>3. </S.TextBold>
-            Posicione a paciente em decubito dorsal para o ponto BL32, e em
-            decubito lateral para o ponto SP6 ou sanyinjiao. (Deixar que a
-            parturiente possa encontrar uma posição confortavel, desde que a
-            mesma obedeça o posicionamento ideal).
+            Posicione a paciente em decúbito dorsal para o ponto BL32, e em
+            decúbito lateral para o ponto SP6 ou sanyinjiao. (Deixar que a
+            parturiente possa encontrar uma posição confortável, desde que a
+            mesma siga o posicionamento ideal);
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>4. </S.TextBold>
-            Localize os ponto SP6, na largura de aproximadamente quatro dedos
-            acima da ponta do maléolo interno, lado posterior à borda tibial. Já
-            o ponto BL32 encontra-se no segundo orifício do osso sacral,
+            Localize o ponto SP6 na largura de aproximadamente quatro dedos
+            acima da ponta do maléolo interno, lado posterior à borda tibial ou
+            o ponto BL32 que se encontra no segundo orifício do osso sacral,
             aproximadamente um dedo indicador de distância acima da parte
-            superior do vinco das nádegas.
+            superior do vinco das nádegas;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>5. </S.TextBold>
-            Aperte o ponto escolhido e fique pressionando‐o repetidamente, para
-            tonificar em movimento circular no sentido horário, durante pelo
-            menos 3 minutos.
+            Aperte o ponto escolhido e pressione‐o repetidamente para tonificar
+            em movimento circular no sentido horário, durante pelo menos 3
+            minutos.
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>6. </S.TextBold>
-            Para definir a percepção da dor durante o trabalho de parto, utilize
-            a escala visual analógica (EVA) que varia de 0 a 10, em que o 0 é
-            ausência de dor e 10 significa dor intensa.{' '}
+            Para definir a percepção da dor durante o PP, utilize a escala
+            visual analógica (EVA) que varia de 0 a 10, em que o 0 é ausência de
+            dor e 10 significa dor intensa.{' '}
             <S.Link onPress={() => navigation.navigate('Scale')}>
               Clique aqui para utilizar a escala
             </S.Link>{' '}
@@ -118,48 +117,21 @@ const Acupuncture: React.FC = () => {
           </S.TextBlock>
 
           <S.TextBlock>
-            <S.TextBold>AURICULOTERAPIA</S.TextBold>: a acupressão pode ser
-            empregada em diferentes áreas do corpo, como na região auricular,
-            por exemplo. Na técnica de auriculoterapia, o estímulo acontece por
-            meio da fixação de microesferas de cristais em determinados pontos
-            da orelha. Os cristais são fixados por adesivos na orelha das
-            gestantes, realizando-se uma leve pressão que irá ser mantida por
-            cerca de um minuto até o momento em que esta pressão gere uma
+            <S.TextBold>Auriculoterapia</S.TextBold>: a acupressão pode ser
+            empregada em diferentes áreas do corpo, como na região auricular.
+            Nessa técnica, o estímulo acontece por meio da fixação de
+            microesferas de cristais em determinados pontos da orelha. Os
+            cristais são fixados por adesivos na orelha das gestantes
+            realizando-se uma leve pressão que irá ser mantida por cerca de 01
+            minuto ou por um intervalo de tempo em que esta pressão gere uma
             sensação dolorosa e ative o ponto de energia causando a liberação de
             endorfinas (MAFETONI et al., 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Na técnica de auriculoterapia, o estímulo acontece por meio da
-            fixação de microesferas de cristais em determinados pontos da
-            orelha, de acordo com o mapa auricular chinês:
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>I) </S.TextBold>
-            shenmen, que predispõe o tronco cerebral e o córtex a receber,
-            condicionar e codificar os reflexos auriculares;
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>II) </S.TextBold>
-            útero, que é indicado nas alterações ginecológicas e obstétricas, na
-            indução do parto, redução do período expulsivo e redução da dor no
-            pós-parto;
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>III) </S.TextBold>
-            área de neurastenia, indicado para o tratamento da ansiedade;
-          </S.TextBlock>
-          <S.TextBlock>
-            <S.TextBold>IV) </S.TextBold>
-            endócrino, que regula as funções das glândulas de secreção endógenas
-            sendo usado em distúrbios ginecológicos, entre outros. Esses pontos
-            foram baseados na prática clínica e em estudos prévios ilustrados na
-            figura abaixo (MAFETONI et al., 2019).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento:</S.TextBold>
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>1. </S.TextBold>Higienize as mãos.
+            <S.TextBold>1. </S.TextBold>Higienize as mãos;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>2. </S.TextBold>Posicione a paciente em decúbito lateral
@@ -167,24 +139,22 @@ const Acupuncture: React.FC = () => {
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>3. </S.TextBold>Observe o pavilhão auricular para
-            conhecer onde será o ponto na qual será realizada o procedimento.
-            Essa fase é chamada de inspeção e além de escolher tal local de
-            aplicação ela é importante pois objetiva também encontrar alguma
-            patologia na área auricular.
+            identificar o ponto no qual será realizado o procedimento. Essa fase
+            é chamada de inspeção e, além de escolher o local de aplicação, é
+            importante para encontrar possíveis patologias na área auricular;
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>4. </S.TextBold>Realize antissepsia previamente, com
-            álcool etílico 70%, no pavilhão auricular.
+            <S.TextBold>4. </S.TextBold>Realize antissepsia com álcool etílico
+            70% no pavilhão auricular;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>5. </S.TextBold>Faça o diagnóstico por meio da palpação
-            com o auxílio de uma sonda ou a caneta de detecção através da
-            pressão para identificação de pontos sensíveis auriculares.
+            com o auxílio de uma sonda ou caneta de detecção através da pressão
+            para identificar os pontos sensíveis auriculares;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>6. </S.TextBold>Utilize a caneta de palpação para
-            pressionar os pontos auriculares e à observação da marca
-            pressionada.
+            pressionar os pontos auriculares;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>7. </S.TextBold>Tenha como referência os pontos:
@@ -217,14 +187,14 @@ const Acupuncture: React.FC = () => {
           <S.TextBlock>
             <S.TextBold>8. </S.TextBold>Achado os pontos, fixe à pele as esferas
             de cristal polido com 1,5mm ou sementes de mostarda com fitas
-            hipoalérgicas, e realize uma leve pressão que deve ser mantida por
-            um minuto ou por um intervalo de tempo semelhante ou até mesmo em
-            que a pressão gere uma sensação dolorosa e ative o ponto de energia,
-            causando liberação de endorfinas.
+            hipoalérgicas e realize uma leve pressão que deve ser mantida por 01
+            minuto ou por um intervalo de tempo em que a pressão gere uma
+            sensação dolorosa e ative o ponto de energia, causando liberação de
+            endorfinas.
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>9. </S.TextBold>Para definir a percepção da dor durante
-            o TP, utilize a escala visual analógica (EVA) que varia de 0 a 10,
+            o PP, utilize a escala visual analógica (EVA) que varia de 0 a 10,
             em que o 0 é ausência de dor e 10 significa dor intensa.{' '}
             <S.Link onPress={() => navigation.navigate('Scale')}>
               Clique aqui para utilizar a escala

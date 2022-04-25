@@ -31,20 +31,21 @@ const Yoga: React.FC = () => {
           />
           <S.TextBlock>
             Não existe comprovação científica que o Ioga é efetivo em nenhuma
-            das fases do TP, porém se ela for realizado durante a gestação
+            das fases do PP, porém se ela for realizado durante a gestação
             poderá ser eficaz no controle da ansiedade, respiração e
             relaxamento. Durante a gestação, os{' '}
-            <S.TextBold>pranayamas</S.TextBold> s (controle da energia vital por
+            <S.TextBold>pranayamas</S.TextBold> (controle da energia vital por
             meio da respiração) cumprem um papel importante para o controle da
             pressão arterial, além de relaxar, distender e deixar mais flexível
             a musculatura da parede abdominal e a região torácica para que se
-            tenha um melhor controle da dor durante a fase ativa do parto
-            (DESMAWATI et al., 2020).
+            tenha um melhor controle da dor durante a fase ativa do PP
+            (DESMAWATI; KONGSUWAN; CHATCHAWET, 2019).
           </S.TextBlock>
           <S.TextBlock>
             O método descrito abaixo deve ser empregado principalmente na fase
-            de dilatação do TP, pois irá causar o relaxamento dos músculos
-            abdominais e diminuir o desconforto (BRASIL, 2018; 2019; WHO, 2018).
+            de dilatação do PP, pois irá causar o relaxamento dos músculos
+            abdominais e diminuir o desconforto (BRASIL, 2018a; 2019; WHO,
+            2018).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento: </S.TextBold>
@@ -52,13 +53,13 @@ const Yoga: React.FC = () => {
           <S.TextBlock>
             <S.TextBold>1. </S.TextBold>Prepare a sala de parto com o objetivo
             de criar um bom ambiente, mantendo as luzes baixas e a música suave.
-            O uso de tapetes de borracha ou tatames ante derrapantes pode ser
-            uma alternativa.
+            O uso de tapetes de borracha ou tatames antiderrapantes pode ser uma
+            alternativa;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>2. </S.TextBold>Realize o toque vaginal (enfermeiro ou
             médico obstetra) para observar a dilatação cervical. A técnica só
-            deverás ser realizada se a dilatação cervical esteja até 5 cm.
+            deverá ser realizada se a dilatação cervical esteja até 5 cm;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>3. </S.TextBold>Posicione a gestante sentada no tapete,
@@ -67,13 +68,13 @@ const Yoga: React.FC = () => {
             o calcanhar esquerdo sobre a canela direita e coloque-o sobre a coxa
             direita. Lembre-se que a parturiente pode não optar por essa posição
             ou não se adaptar e dever ser colocada na posição mais confortável
-            possível.
+            possível;
           </S.TextBlock>
           <S.TextBlock>
-            <S.TextBold>4. </S.TextBold>Em um tom suave, embalado ao tom da
-            música, com o objetivo de melhorar a concentração e saber quantas
-            contrações se teve por minuto e qual a, oriente a ela para fechar os
-            olhos.
+            <S.TextBold>4. </S.TextBold>Em um tom suave, o toque da música pode
+            melhorar a concentração, assim como o ato de fechar os olhos, pois
+            esse ato ajuda a gestante a se desconectar de estímulos externos
+            visuais que possam diminuir sua concentração e relaxamento;
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>5. </S.TextBold>Quando a paciente sentir uma contração,
@@ -95,6 +96,19 @@ const Yoga: React.FC = () => {
             3 4 5). Quando a mesma expirar, oriente a soltar o ar pela boca e
             contar – (5 4 3 2 1), ou seja , de modo decrescente e oposta ao da
             inspiração.
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>8. </S.TextBold>Para definir a percepção da dor durante
+            o trabalho de parto, utilize a escala visual analógica (EVA) que
+            varia de 0 a 10, em que o 0 é ausência de dor e 10 significa dor
+            intensa.{' '}
+            <S.Link onPress={() => navigation.navigate('Scale')}>
+              Clique aqui para utilizar a escala
+            </S.Link>
+          </S.TextBlock>
+          <S.TextBlock>
+            <S.TextBold>9. </S.TextBold>Realizar registro da intervenção e de
+            acompanhamento dos sintomas e intensidade da dor.
           </S.TextBlock>
           <S.Image resizeMode="contain" source={yoga} />
           <S.Legend>FIGURA 7- Representação esquemática posição Yoga.</S.Legend>

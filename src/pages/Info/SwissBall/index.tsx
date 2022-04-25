@@ -29,27 +29,20 @@ const SwissBall: React.FC = () => {
         <S.Content>
           <S.TextBlock>
             Conhecida como bola obstétrica, pode ser usada diversas vezes ao
-            longo do trabalho de parto, a depender da vontade da parturiente. A
-            utilização da bola consiste na possibilidade de a parturiente poder
-            relaxar ao realizar movimentos de sua preferência (circulares, para
-            frente e para trás) sob esse objeto terapêutico (CARRIÈRE, 2018;
-            BRASIL, 2019).
-          </S.TextBlock>
-          <S.TextBlock>
-            Esse recurso permite a mobilidade pélvica, estimula a dilatação e a
-            descida fetal, além de diminuir o desconforto doloroso. A realização
-            de exercícios com a bola na posição vertical (sentada) trabalha a
-            musculatura do assoalho pélvico, em especial, os músculos
-            levantadores do ânus e pubococcígeos e a fáscia da pelve (CARRIÈRE,
-            2018).
+            longo do PP a depender da vontade da parturiente. Esse recurso
+            permite a mobilidade pélvica, estimula a dilatação e a descida
+            fetal, além de diminuir o desconforto doloroso e provocar
+            relaxamento. A realização de exercícios com a bola na posição
+            vertical (sentada) trabalha a musculatura do assoalho pélvico, em
+            especial, os músculos levantadores do ânus e pubococcígeos e a
+            fáscia da pelve (MOTA e SILVA et al., 2011).
           </S.TextBlock>
           <S.TextBlock>
             Permanecer na posição vertical traz benefícios como a diminuição do
-            tempo de duração do primeiro estágio do trabalho de parto, alívio da
-            dor e tensão (SILVA et al., 2010). Recomenda-se que a bola não
-            esteja muito cheia, pois isso pode deixá-la mais resistente e menos
-            flexível para se moldar ao períneo quando a mulher se sentar nela
-            (BRASIL, 2019).
+            tempo de duração do primeiro estágio do PP, alívio da dor e tensão
+            (SILVA et al., 2019b). Recomenda-se que a bola não esteja muito
+            cheia, pois isso pode deixá-la mais resistente e menos flexível para
+            se moldar ao períneo quando a mulher se sentar nela (BRASIL, 2019).
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Procedimento:</S.TextBold>
@@ -86,12 +79,12 @@ const SwissBall: React.FC = () => {
             Fonte: Silva; 2010
           </S.Legend>
           <S.TextBlock>
-            Essa posição ainda proporciona liberdade de mudança de posição à
-            parturiente, o que contribui para a participação ativa da mulher no
-            processo do nascimento. A movimentação suave da pelve promove o
-            relaxamento da musculatura que, associada à ampliação da pelve,
-            auxilia na descida da apresentação fetal no canal de parto
-            (OLIVEIRA, 2011).
+            Essa posição (Fig 10) ainda proporciona liberdade de mudança de
+            posição à parturiente, o que contribui para a participação ativa da
+            mulher no processo do nascimento. O balanço da região pélvica produz
+            gradualmente o relaxamento da musculatura e ampliação da pelve
+            facilitando a descida do bebê pelo canal vaginal (SILVA et al.,
+            2011).
           </S.TextBlock>
           <S.Image resizeMode="contain" source={png4} />
           <S.Legend>

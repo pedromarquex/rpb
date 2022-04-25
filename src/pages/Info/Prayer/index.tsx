@@ -27,9 +27,8 @@ const Prayer: React.FC = () => {
             A oração envolve os aspectos emocionais, espirituais e culturais do
             ser humano e pode gerar efeitos positivos no parto, estimulando
             ânimo e disposição. Algumas gestantes costumam obter conforto e
-            força por meio de textos sagrados e orações lidas por seus
-            companheiros durante o trabalho de parto, como um suporte espiritual
-            (WHO, 2018).
+            força por meio de textos sagrados e orações lidas durante o PP, como
+            um suporte espiritual (WHO, 2018).
           </S.TextBlock>
           <S.TextBlock>
             Algumas orações podem ser rezadas neste momento como a de Nossa
@@ -64,13 +63,12 @@ const Prayer: React.FC = () => {
             </S.Link>
           </S.TextBlock>
           <S.TextBlock>
-            Tendo em vista a grande diversidade religiosa no Brasil, sugerimos
-            abaixo orações religiosas <S.TextBold>evangélica</S.TextBold> e
-            <S.TextBold> espirita</S.TextBold>, caso a gestante não se enquadre
-            em nenhuma das religiões acima, solicitar que a mesma possa realizar
-            uma oração pessoal, dessa forma utilize o método da musicoterapia
-            para que se possa criar um ambiente propicio a tal ato, criando
-            assim uma sinestesia com sagrado.
+            Tendo em vista a diversidade religiosa no Brasil, sugerimos abaixo
+            outras orações de diferentes religiões. Caso a gestante não se
+            enquadre em nenhuma dessas religiões, ela pode realizar uma oração
+            pessoal. Neste momento, pode ser utilizado também o método da
+            musicoterapia para que se possa criar um ambiente propício uma
+            sinestesia com o sagrado.
           </S.TextBlock>
           <S.TextBlock>
             <S.TextBold>Evangélica</S.TextBold>
